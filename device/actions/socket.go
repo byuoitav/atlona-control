@@ -8,8 +8,6 @@ import (
 	"time"
 )
 
-var lastCommandTime time.Time
-
 // func init() {
 // 	fmt.Println("Actions Package Init")
 // }
@@ -37,7 +35,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	port := "23"
 
 	// get the connection
-	fmt.Printf("Opening telnet connection with address: %s command decimal: %d, command: %s\n", address, cmd, string(cmd))
+	fmt.Printf("\n\nOpening telnet connection with address: %s command decimal: %d, command: %s\n", address, cmd, string(cmd))
 	conn, err := createConnection(address, port)
 	if err != nil {
 		return nil, err
@@ -55,7 +53,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	readTime := time.Millisecond * 50
 	for start := time.Now(); ; {
 		_, err := reader.Read(resp)
-		fmt.Println("***************************************************Initial read loop")
+		//fmt.Println("***************************************************Initial read loop")
 		time.Sleep(time.Duration(5 * time.Millisecond))
 		if err != nil {
 			//err = fmt.Errorf("error reading from system: %s", err.Error())
@@ -67,6 +65,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 			break
 		}
 	}
+	//fmt.Println("***************************************************Initial read loop end")
 
 	// write command
 	fmt.Println("Write Command: ", string(cmd))
@@ -78,9 +77,9 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	}
 	resp = nil //clear out the connection initialized read
 
-	timeoutDuration = 400 * time.Millisecond
+	timeoutDuration = 100 * time.Millisecond
 	conn.SetReadDeadline(time.Now().Add(timeoutDuration))
-	fmt.Println("Read Command")
+	//fmt.Println("Read Command")
 	readTime = time.Millisecond * 100
 	for start := time.Now(); ; {
 		if time.Since(start) > readTime {
@@ -90,32 +89,33 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 		if len(tempResp) > 0 {
 			resp = append(resp, tempResp...)
 		}
-		fmt.Println("***************************************************After write read loop")
+		//fmt.Println("***************************************************After write read loop")
 		time.Sleep(time.Duration(5 * time.Millisecond))
 		if err != nil {
 			err = fmt.Errorf("error reading from system: %s", err.Error())
-			fmt.Printf(err.Error())
-			//return nil, err
+			fmt.Println(err.Error())
 			continue
 		}
 		fmt.Printf("The second response is: %s\r\n", resp)
 
 	}
+	//fmt.Println("***************************************************After write read loop end")
 
 	if err != nil {
 		err = fmt.Errorf("error reading from system: %s", err.Error())
-		fmt.Printf(err.Error())
+		//fmt.Printf(err.Error())
 		return nil, err
 	}
 
 	//catch for failed command response from Atlona
 	if string(resp) == "Command FAILED" {
 		err = fmt.Errorf("failed command, please check the correct device is selected. device response: %s", string(resp))
-		fmt.Printf(err.Error())
+		//fmt.Printf(err.Error())
 		return nil, err
 	}
-	fmt.Println(resp)
+
 	fmt.Printf("Response from device: %s\n", resp)
+	fmt.Println(resp)
 
 	conn.Close()
 

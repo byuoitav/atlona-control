@@ -29,17 +29,16 @@ func SetInput(address string, input string, output string) (Input, error) {
 		out = "x1,x2"
 	case "1": //for 5x1 or other single output switcher
 		out = "x1"
-	}
-	if out == "" {
+	default:
 		err := fmt.Errorf("invalid output: %s", output)
 		return inpt, err
 	}
-	fmt.Println("******************************* Out:", out)
+	//fmt.Println("******************************* Out:", out)
 
-	cmdString := "x" + input + "AV" + out + "\r" //syntax is xYAVxZ Y=input number, Z=output number
-	fmt.Println("String to send: ", cmdString)
+	payload := "x" + input + "AV" + out + "\r" //syntax is xYAVxZ Y=input number, Z=output number
+	//fmt.Println("String to send: ", payload)
 
-	resp, err := sendCommand(address, []byte(cmdString))
+	resp, err := sendCommand(address, []byte(payload))
 	if err != nil {
 		return inpt, err
 	}
@@ -56,7 +55,7 @@ func SetInput(address string, input string, output string) (Input, error) {
 func GetInput(address string, output string) (Input, error) {
 	var input Input
 	out := ""
-	fmt.Println("******************************* Output:", output)
+	//fmt.Println("******************************* Output:", output)
 	switch output {
 	case "hdmiOutA": //for 6x2
 		out = "x1"
@@ -67,12 +66,11 @@ func GetInput(address string, output string) (Input, error) {
 	case "1": //for 5x1 or other single output switcher
 		out = "x1"
 		//fmt.Println("5x1 case")
-	}
-	if out == "" {
+	default:
 		err := fmt.Errorf("invalid output: %s", output)
 		return input, err
 	}
-	fmt.Println("******************************* Out:", out)
+	//fmt.Println("******************************* Out:", out)
 
 	payload := []byte("Status\r")
 	//fmt.Println("Payload: ", payload)
@@ -90,25 +88,25 @@ func GetInput(address string, output string) (Input, error) {
 }
 
 func parseResponse(resp []byte, output string, out string) (input string, err error) {
-	fmt.Println("Response: ", string(resp))
+	//fmt.Println("Response: ", string(resp))
 	responses := strings.Split(string(resp), "\r\n")
-	fmt.Printf("Responses: %x \r\n", responses)
-	fmt.Printf("Responses: %s \r\n", responses)
+	//fmt.Printf("Responses: %x \r\n", responses)
+	//fmt.Printf("Responses: %s \r\n", responses)
 	responseContainsOut := false
-	for index, value := range responses {
-		fmt.Println(index)
-		fmt.Println("Slice: ", value)
+	for _, value := range responses {
+		//fmt.Println(index)
+		//fmt.Println("Slice: ", value)
 		if len(value) > 5 {
-			fmt.Println("Output Port: ", string(value[4:]))
-			fmt.Println("Out: ", out)
+			//fmt.Println("Output Port: ", string(value[4:]))
+			//fmt.Println("Out: ", out)
 			responseContainsOut = strings.Contains(string(value[4:]), out)
 		} else {
 			continue
 		}
-		fmt.Println(len(value), responseContainsOut)
+		//fmt.Println(len(value), responseContainsOut)
 		if responseContainsOut {
-			fmt.Println("true dat")
-			fmt.Println(string(value[1]))
+			//fmt.Println("true dat")
+			//fmt.Println(string(value[1]))
 			respValue := string(value[1]) + ":" + output
 			input = respValue
 			return input, nil
