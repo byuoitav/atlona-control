@@ -1,7 +1,6 @@
 package actions
 
 import (
-	"bytes"
 	"fmt"
 	"strconv"
 	"strings"
@@ -39,31 +38,54 @@ type Volume struct {
 }
 
 type Mute struct {
-	Muted bool `json:"mute"`
+	Muted bool `json:"muted"`
 }
 
 // gain 60 - zoneOut1 - VOUTMute x - x=(on, off)
 // 62 - zoneOut1, zoneOut2 - VOUTMutex y x(output#)=(1, 2, 3, 4)  y=(on, off)
 // 52 - Out1 - VOUTMute x - x=(on, off)
 func SetMute(address string, output string, status bool, device string) (Mute, error) {
-	fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
+	fmt.Printf("Incoming vars: address: %s, output: %s, status: %t, device: %s\r\n", address, output, status, device)
 	var state Mute
 
+	cmd := ""
+	parseCmd := ""
+
+	muteCMD := "off"
 	if status {
-		payload := []byte{0x3A, 0x30, 0x31, 0x53, 0x39, 0x30, 0x30, 0x31, 0x0d}
-		_, err := sendCommand(address, payload)
-		if err != nil {
-			return state, err
-		}
-		status = false
-	} else {
-		payload := []byte{0x3A, 0x30, 0x31, 0x53, 0x39, 0x30, 0x30, 0x30, 0x0d}
-		_, err := sendCommand(address, payload)
-		if err != nil {
-			return state, err
-		}
-		status = true
+		muteCMD = "on"
 	}
+
+	switch device {
+	case "AT-UHD-SW-52ED":
+		cmd = "VOUTMute1 " + muteCMD + "\r"
+		parseCmd = "VOUTMute1"
+	case "AT-OME-PS62":
+		switch output {
+		case "zoneOut1":
+			cmd = "VOUTMute1 " + muteCMD + "\r" + "VOUTMute3 " + muteCMD + "\r"
+			parseCmd = "VOUTMute1"
+		case "zoneOut2":
+			cmd = "VOUTMute2 " + muteCMD + "\r" + "VOUTMute4 " + muteCMD + "\r"
+			parseCmd = "VOUTMute2"
+		}
+	case "AT-GAIN-60":
+		cmd = "VOUTMute " + muteCMD + "\r"
+		parseCmd = "VOUTMute"
+	}
+
+	resp, err := sendCommand(address, []byte(cmd))
+	if err != nil {
+		return state, err
+	}
+	fmt.Printf("The response is: %s", resp)
+	respMute, err := parseMuteResponse(resp, output, parseCmd)
+	if err != nil {
+		return state, err
+	}
+	fmt.Println(respMute)
+	state.Muted = respMute
+
 	return state, nil
 }
 
@@ -74,101 +96,38 @@ func GetMute(address string, output string, device string) (Mute, error) {
 	fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
 	var state Mute
 
-	mute := []byte("")
-
-	unmute := []byte("")
-
-	payload := []byte{0x3A, 0x30, 0x31, 0x47, 0x39, 0x30, 0x30, 0x30, 0x0D}
-	resp, err := sendCommand(address, payload)
-	if err != nil {
-		return Mute{}, err
-	} else if bytes.Equal(resp, mute) {
-		state.Muted = true
-	} else if bytes.Equal(resp, unmute) {
-		state.Muted = false
-	} else {
-		return Mute{}, err
+	cmd := ""
+	parseCmd := ""
+	switch device {
+	case "AT-UHD-SW-52ED":
+		cmd = "VOUTMute1 sta\r"
+		parseCmd = "VOUTMute1"
+	case "AT-OME-PS62":
+		switch output {
+		case "zoneOut1":
+			cmd = "VOUTMute1 sta\r"
+			parseCmd = "VOUTMute1"
+		case "zoneOut2":
+			cmd = "VOUTMute2 sta\r"
+			parseCmd = "VOUTMute2"
+		}
+	case "AT-GAIN-60":
+		cmd = "VOUTMute sta\r"
+		parseCmd = "VOUTMute"
 	}
 
+	resp, err := sendCommand(address, []byte(cmd))
+	if err != nil {
+		return state, err
+	}
+	fmt.Printf("The response is: %s", resp)
+	respMute, err := parseMuteResponse(resp, output, parseCmd)
+	if err != nil {
+		return state, err
+	}
+	fmt.Println(respMute)
+	state.Muted = respMute
 	return state, nil
-}
-
-func convertVolume(volume string, device string) string {
-	//fmt.Printf("\nconvertVolume Incoming Values volume: %s, device: %s\n", volume, device)
-
-	vtmp, err := strconv.Atoi(volume)
-	v := float64(vtmp)
-	if v > 100 {
-		v = 100
-	}
-	if v < 0 {
-		v = 0
-	}
-	outMax := 100.0
-	outMin := 0.0
-	devHi := 100.0
-	devLo := 0.0
-	if err != nil {
-		fmt.Println(err)
-		return "0"
-	}
-
-	switch device {
-	case "AT-UHD-SW-52ED": //range -80 - 15
-		devHi = 15
-		devLo = -80
-	case "AT-OME-PS62": //range -90 - 10
-		devHi = 10
-		devLo = -90
-	case "AT-GAIN-60": //range   0 - 100
-		devHi = 100
-		devLo = 0
-
-	}
-
-	vol := ((devHi-devLo)*(v-outMin))/(outMax-outMin) + devLo
-	fmt.Printf("Incoming Volume: %s, devHi: %f, devLo: %f, vol: %f\n", volume, devHi, devLo, vol)
-	volToSend := int(vol)
-	return fmt.Sprint(volToSend)
-}
-
-func convertReceiveVolume(volume string, device string) string {
-	//fmt.Printf("\nconvertVolume Incoming Values volume: %s, device: %s\n", volume, device)
-
-	vtmp, err := strconv.Atoi(volume)
-	v := float64(vtmp)
-	// if v > 100 {
-	// 	v = 100
-	// }
-	// if v < 0 {
-	// 	v = 0
-	// }
-	outMax := 100.0
-	outMin := 0.0
-	devHi := 100.0
-	devLo := 0.0
-	if err != nil {
-		fmt.Println(err)
-		return "0"
-	}
-
-	switch device {
-	case "AT-UHD-SW-52ED": //range -80 - 15
-		devHi = 15.0
-		devLo = -80.0
-	case "AT-OME-PS62": //range -90 - 10
-		devHi = 10.0
-		devLo = -90
-	case "AT-GAIN-60": //range   0 - 100
-		devHi = 100
-		devLo = 0
-
-	}
-	//volToSend := ((devHi-devLo)*(v-outMin))/(outMax-outMin) + devLo
-	vol := ((outMax-outMin)*(v-devLo))/(devHi-devLo) + outMin
-	fmt.Printf("Incoming Volume: %s, devHi: %f, devLo: %f, vol: %f\n", volume, devHi, devLo, vol)
-	volToSend := int(vol)
-	return fmt.Sprint(volToSend)
 }
 
 // gain 60 - zoneOut1 - VOL x (0-100)
@@ -179,7 +138,7 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 	var level Volume
 
 	vol := convertVolume(volume, device)
-	fmt.Println(vol)
+	//fmt.Println(vol)
 	//zoneOut1, zoneOut2
 
 	cmd := ""
@@ -218,8 +177,8 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 		return level, err
 	}
 
-	fmt.Println("respLevel: ", respLevel)
-	fmt.Println("level: ", level)
+	// fmt.Println("respLevel: ", respLevel)
+	// fmt.Println("level: ", level)
 
 	return level, nil
 }
@@ -269,14 +228,13 @@ func GetVolume(address string, output string, device string) (Volume, error) {
 		return level, err
 	}
 
-	fmt.Println("respLevel: ", respLevel)
-	fmt.Println("level: ", level)
-
-	//convert response to 0-100 instead of the Atlona levels
+	//fmt.Println("respLevel: ", respLevel)
+	//fmt.Println("level: ", level)
 
 	return level, nil
 }
 
+// ******************************************************************************************************Helper functions
 func parseVolumeResponse(resp []byte, output string, parseCmd string) (input int, err error) {
 	//fmt.Printf("Response: %s, output: %s, parseCmd: %s\n", string(resp), output, parseCmd)
 	responses := strings.Split(string(resp), "\r\n")
@@ -302,4 +260,114 @@ func parseVolumeResponse(resp []byte, output string, parseCmd string) (input int
 		}
 	}
 	return input, err
+}
+
+func parseMuteResponse(resp []byte, output string, parseCmd string) (mute bool, err error) {
+	responses := strings.Split(string(resp), "\r\n")
+	responseContainsCMD := false
+	for _, value := range responses {
+		fmt.Println("Slice: ", value)
+		if len(value) > 5 {
+			responseContainsCMD = strings.Contains(string(value), parseCmd)
+		} else {
+			continue
+		}
+		if responseContainsCMD {
+			v := strings.Split(string(value), " ")
+			state := v[1]
+			fmt.Println("state: ", state)
+			if err != nil {
+				return mute, err
+			}
+
+			if state == "on" {
+				mute = true
+			} else if state == "off" {
+				mute = false
+			} else {
+				err = fmt.Errorf("response not in expected range (\"on\" or \"off\"): %s", string(resp))
+				return mute, err
+			}
+			fmt.Println("mute return: ", mute)
+			return mute, nil
+		} else {
+			err = fmt.Errorf("invalid response: %s", resp)
+			continue
+		}
+	}
+	return mute, err
+}
+
+func convertVolume(volume string, device string) string {
+	//fmt.Printf("\nconvertVolume Incoming Values volume: %s, device: %s\n", volume, device)
+	vtmp, err := strconv.Atoi(volume)
+	v := float64(vtmp) //make a float64 for accuracy otherwise 50 returns 49
+	if v > 100 {
+		v = 100
+	}
+	if v < 0 {
+		v = 0
+	}
+	outMax := 100.0
+	outMin := 0.0
+	devHi := 100.0
+	devLo := 0.0
+	if err != nil {
+		fmt.Println(err)
+		return "0"
+	}
+
+	switch device {
+	case "AT-UHD-SW-52ED": //range -80 - 15
+		devHi = 15
+		devLo = -80
+	case "AT-OME-PS62": //range -90 - 10
+		devHi = 10
+		devLo = -90
+	case "AT-GAIN-60": //range   0 - 100
+		devHi = 100
+		devLo = 0
+	}
+
+	vol := ((devHi-devLo)*(v-outMin))/(outMax-outMin) + devLo
+	//fmt.Printf("Incoming Volume: %s, devHi: %f, devLo: %f, vol: %f\n", volume, devHi, devLo, vol)
+	volToSend := int(vol)
+	return fmt.Sprint(volToSend)
+}
+
+func convertReceiveVolume(volume string, device string) string {
+	//fmt.Printf("\nconvertVolume Incoming Values volume: %s, device: %s\n", volume, device)
+	vtmp, err := strconv.Atoi(volume)
+	v := float64(vtmp) //make a float64 for accuracy otherwise 50 returns 49
+
+	outMax := 100.0
+	outMin := 0.0
+	devHi := 100.0
+	devLo := 0.0
+	if err != nil {
+		fmt.Println(err)
+		return "0"
+	}
+
+	switch device {
+	case "AT-UHD-SW-52ED": //range -80 - 15
+		devHi = 15.0
+		devLo = -80.0
+	case "AT-OME-PS62": //range -90 - 10
+		devHi = 10.0
+		devLo = -90
+	case "AT-GAIN-60": //range   0 - 100
+		devHi = 100
+		devLo = 0
+	}
+	vol := ((outMax-outMin)*(v-devLo))/(devHi-devLo) + outMin
+	//fmt.Printf("Incoming Volume: %s, devHi: %f, devLo: %f, vol: %f\n", volume, devHi, devLo, vol)
+	volToSend := int(vol)
+	if volToSend > 100 {
+		volToSend = 100
+	}
+	if volToSend < 0 {
+		volToSend = 0
+	}
+	return fmt.Sprint(volToSend)
 }

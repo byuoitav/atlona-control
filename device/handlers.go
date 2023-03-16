@@ -101,28 +101,28 @@ func (d *DeviceManager) setMute(context *gin.Context) {
 	context.JSON(http.StatusOK, state)
 }
 
-func (d *DeviceManager) setUnMute(context *gin.Context) {
-	que()
-	device := getDeviceType(context)
+// func (d *DeviceManager) setUnMute(context *gin.Context) {
+// 	que()
+// 	device := getDeviceType(context)
 
-	d.Log.Debug("setting mute", zap.String("mute", context.Param("mute")), zap.String("address", context.Param("address")), zap.String("device type", device))
+// 	d.Log.Debug("setting mute", zap.String("mute", context.Param("mute")), zap.String("address", context.Param("address")), zap.String("device type", device))
 
-	mute, err := strconv.ParseBool(context.Param("mute"))
-	if err != nil {
-		d.Log.Warn("could not set mute. 'mute' parameter not a valid boolean value", zap.Error(err))
-		context.JSON(http.StatusInternalServerError, err.Error())
-		return
-	}
-	state, err := actions.SetMute(context.Param("address"), context.Param("output"), mute, device)
-	if err != nil {
-		d.Log.Warn("failed to set mute", zap.Error(err))
-		context.JSON(http.StatusInternalServerError, err.Error())
-		return
-	}
+// 	mute, err := strconv.ParseBool(context.Param("mute"))
+// 	if err != nil {
+// 		d.Log.Warn("could not set mute. 'mute' parameter not a valid boolean value", zap.Error(err))
+// 		context.JSON(http.StatusInternalServerError, err.Error())
+// 		return
+// 	}
+// 	state, err := actions.SetMute(context.Param("address"), context.Param("output"), mute, device)
+// 	if err != nil {
+// 		d.Log.Warn("failed to set mute", zap.Error(err))
+// 		context.JSON(http.StatusInternalServerError, err.Error())
+// 		return
+// 	}
 
-	d.Log.Debug("successfully set mute", zap.String("mute", strconv.FormatBool(mute)), zap.String("address", context.Param("addres")))
-	context.JSON(http.StatusOK, state)
-}
+// 	d.Log.Debug("successfully set mute", zap.String("mute", strconv.FormatBool(mute)), zap.String("address", context.Param("addres")))
+// 	context.JSON(http.StatusOK, state)
+// }
 
 func (d *DeviceManager) getMute(context *gin.Context) {
 	que()

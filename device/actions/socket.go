@@ -38,6 +38,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	fmt.Printf("\n\nOpening telnet connection with address: %s command decimal: %d, command: %s\n", address, cmd, string(cmd))
 	conn, err := createConnection(address, port)
 	if err != nil {
+		//conn.Close()
 		return nil, err
 	}
 
@@ -72,15 +73,16 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	if len(cmd) > 0 {
 		_, err = conn.Write(cmd)
 		if err != nil {
+			conn.Close()
 			return nil, err
 		}
 	}
 	resp = nil //clear out the connection initialized read
 
-	timeoutDuration = 100 * time.Millisecond
+	timeoutDuration = 200 * time.Millisecond
 	conn.SetReadDeadline(time.Now().Add(timeoutDuration))
 	//fmt.Println("Read Command")
-	readTime = time.Millisecond * 100
+	readTime = time.Millisecond * 50
 	for start := time.Now(); ; {
 		if time.Since(start) > readTime {
 			break
@@ -104,6 +106,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	if err != nil {
 		err = fmt.Errorf("error reading from system: %s", err.Error())
 		//fmt.Printf(err.Error())
+		conn.Close()
 		return nil, err
 	}
 
@@ -111,6 +114,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	if string(resp) == "Command FAILED" {
 		err = fmt.Errorf("failed command, please check the correct device is selected. device response: %s", string(resp))
 		//fmt.Printf(err.Error())
+		conn.Close()
 		return nil, err
 	}
 
