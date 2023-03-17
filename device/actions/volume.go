@@ -188,7 +188,7 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 // 52 - Out1 - VOUT1 sta
 func GetVolume(address string, output string, device string) (Volume, error) {
 	var level Volume
-	fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
+	//fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
 
 	cmd := ""
 	parseCmd := ""

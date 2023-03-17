@@ -1,6 +1,6 @@
-NAME := clevertouch-control
+NAME := atlona-control
 OWNER := byuoitav
-REPO := clevertouch-control
+REPO := atlona-control
 PKG := github.com/$(OWNER)/$(REPO)
 DOCKER_URL := docker.pkg.github.com
 
