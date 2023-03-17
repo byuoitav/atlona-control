@@ -42,7 +42,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 		return nil, err
 	}
 
-	timeoutDuration := 50 * time.Millisecond
+	timeoutDuration := 100 * time.Millisecond
 
 	// Set Read Connection Duration
 	conn.SetReadDeadline(time.Now().Add(timeoutDuration))
@@ -51,7 +51,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	reader := bufio.NewReader(conn)
 	resp := make([]byte, 64)
 
-	readTime := time.Millisecond * 50
+	readTime := time.Millisecond * 100
 	for start := time.Now(); ; {
 		_, err := reader.Read(resp)
 		//fmt.Println("***************************************************Initial read loop")
@@ -82,7 +82,7 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	timeoutDuration = 200 * time.Millisecond
 	conn.SetReadDeadline(time.Now().Add(timeoutDuration))
 	//fmt.Println("Read Command")
-	readTime = time.Millisecond * 50
+	readTime = time.Millisecond * 100
 	for start := time.Now(); ; {
 		if time.Since(start) > readTime {
 			break
