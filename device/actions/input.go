@@ -58,7 +58,6 @@ func SetInput(address string, input string, output string) (Input, error) {
 func GetInput(address string, output string) (Input, error) {
 	var input Input
 	out := ""
-	//fmt.Println("******************************* Output:", output)
 	switch {
 	case strings.Contains(output, "A") || strings.Contains(output, "a") || strings.Contains(output, "1") || strings.Contains(output, "0"):
 		out = "x1"

@@ -87,6 +87,9 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 	conn.SetReadDeadline(time.Now().Add(timeoutDuration))
 	readTime = time.Millisecond * 100
 	for start := time.Now(); ; {
+		if time.Since(start) > readTime {
+			break
+		}
 		tempResp, err := reader.ReadBytes('\n')
 		if len(tempResp) > 0 {
 			resp = append(resp, tempResp...)
@@ -99,9 +102,6 @@ func sendCommand(address string, cmd []byte) ([]byte, error) {
 		fmt.Printf("The second response is: %s\r\n", resp)
 		time.Sleep(time.Duration(10 * time.Millisecond))
 
-		if time.Since(start) > readTime {
-			break
-		}
 	}
 
 	if err != nil {
