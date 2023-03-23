@@ -61,17 +61,23 @@ func SetMute(address string, output string, status bool, device string) (Mute, e
 		cmd = "VOUTMute1 " + muteCMD + "\r"
 		parseCmd = "VOUTMute1"
 	case "AT-OME-PS62":
-		switch output {
-		case "zoneOut1":
+		switch {
+		case strings.Contains(output, "1"):
 			cmd = "VOUTMute1 " + muteCMD + "\r" + "VOUTMute3 " + muteCMD + "\r"
 			parseCmd = "VOUTMute1"
-		case "zoneOut2":
+		case strings.Contains(output, "2"):
 			cmd = "VOUTMute2 " + muteCMD + "\r" + "VOUTMute4 " + muteCMD + "\r"
 			parseCmd = "VOUTMute2"
+		default:
+			err := fmt.Errorf("invalid output for volume. expected to contain a 1 or 2: %s", output)
+			return state, err
 		}
 	case "AT-GAIN-60":
 		cmd = "VOUTMute " + muteCMD + "\r"
 		parseCmd = "VOUTMute"
+	default:
+		err := fmt.Errorf("invalid device. expected AT-UHD-SW-52ED, AT-OME-PS62, or AT-GAIN-60: %s", output)
+		return state, err
 	}
 
 	resp, err := sendCommand(address, []byte(cmd))
@@ -103,17 +109,23 @@ func GetMute(address string, output string, device string) (Mute, error) {
 		cmd = "VOUTMute1 sta\r"
 		parseCmd = "VOUTMute1"
 	case "AT-OME-PS62":
-		switch output {
-		case "zoneOut1":
+		switch {
+		case strings.Contains(output, "1"):
 			cmd = "VOUTMute1 sta\r"
 			parseCmd = "VOUTMute1"
-		case "zoneOut2":
+		case strings.Contains(output, "2"):
 			cmd = "VOUTMute2 sta\r"
 			parseCmd = "VOUTMute2"
+		default:
+			err := fmt.Errorf("invalid output for volume. expected to contain a 1 or 2: %s", output)
+			return state, err
 		}
 	case "AT-GAIN-60":
 		cmd = "VOUTMute sta\r"
 		parseCmd = "VOUTMute"
+	default:
+		err := fmt.Errorf("invalid device. expected AT-UHD-SW-52ED, AT-OME-PS62, or AT-GAIN-60: %s", output)
+		return state, err
 	}
 
 	resp, err := sendCommand(address, []byte(cmd))
@@ -138,8 +150,6 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 	var level Volume
 
 	vol := convertVolume(volume, device)
-	//fmt.Println(vol)
-	//zoneOut1, zoneOut2
 
 	cmd := ""
 	parseCmd := ""
@@ -148,17 +158,23 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 		cmd = "VOUT1 " + vol + "\r"
 		parseCmd = "VOUT1"
 	case "AT-OME-PS62":
-		switch output {
-		case "zoneOut1":
+		switch {
+		case strings.Contains(output, "1"):
 			cmd = "VOUT1 " + vol + "\r" + "VOUT3 " + vol + "\r"
 			parseCmd = "VOUT1"
-		case "zoneOut2":
+		case strings.Contains(output, "2"):
 			cmd = "VOUT2 " + vol + "\r" + "VOUT4 " + vol + "\r"
 			parseCmd = "VOUT2"
+		default:
+			err := fmt.Errorf("invalid output for volume. expected to contain a 1 or 2: %s", output)
+			return level, err
 		}
 	case "AT-GAIN-60":
 		cmd = "VOL " + vol + "\r"
-		parseCmd = "VOUT1"
+		parseCmd = "VOL"
+	default:
+		err := fmt.Errorf("invalid device. expected AT-UHD-SW-52ED, AT-OME-PS62, or AT-GAIN-60: %s", output)
+		return level, err
 	}
 
 	resp, err := sendCommand(address, []byte(cmd))
@@ -166,6 +182,7 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 		return level, err
 	}
 	fmt.Printf("The response is: %s", resp)
+
 	respLevel, err := parseVolumeResponse(resp, output, parseCmd)
 	if err != nil {
 		return level, err
@@ -176,10 +193,6 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 	if err != nil {
 		return level, err
 	}
-
-	// fmt.Println("respLevel: ", respLevel)
-	// fmt.Println("level: ", level)
-
 	return level, nil
 }
 
@@ -188,7 +201,6 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 // 52 - Out1 - VOUT1 sta
 func GetVolume(address string, output string, device string) (Volume, error) {
 	var level Volume
-	//fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
 
 	cmd := ""
 	parseCmd := ""
@@ -197,17 +209,23 @@ func GetVolume(address string, output string, device string) (Volume, error) {
 		cmd = "VOUT1 sta\r"
 		parseCmd = "VOUT1"
 	case "AT-OME-PS62":
-		switch output {
-		case "zoneOut1":
+		switch {
+		case strings.Contains(output, "1"):
 			cmd = "VOUT1 sta\r"
 			parseCmd = "VOUT1"
-		case "zoneOut2":
+		case strings.Contains(output, "2"):
 			cmd = "VOUT2 sta\r"
 			parseCmd = "VOUT2"
+		default:
+			err := fmt.Errorf("invalid output for volume. expected to contain a 1 or 2: %s", output)
+			return level, err
 		}
 	case "AT-GAIN-60":
 		cmd = "VOL sta\r"
 		parseCmd = "VOL"
+	default:
+		err := fmt.Errorf("invalid device. expected AT-UHD-SW-52ED, AT-OME-PS62, or AT-GAIN-60: %s", output)
+		return level, err
 	}
 
 	resp, err := sendCommand(address, []byte(cmd))
@@ -216,7 +234,6 @@ func GetVolume(address string, output string, device string) (Volume, error) {
 	}
 	fmt.Printf("The response is: %s", resp)
 
-	//parse return
 	respLevel, err := parseVolumeResponse(resp, output, parseCmd)
 	if err != nil {
 		return level, err
@@ -228,20 +245,16 @@ func GetVolume(address string, output string, device string) (Volume, error) {
 		return level, err
 	}
 
-	//fmt.Println("respLevel: ", respLevel)
-	//fmt.Println("level: ", level)
-
 	return level, nil
 }
 
-// ******************************************************************************************************Helper functions
+// ****************************************************************************Helper functions
 func parseVolumeResponse(resp []byte, output string, parseCmd string) (input int, err error) {
-	//fmt.Printf("Response: %s, output: %s, parseCmd: %s\n", string(resp), output, parseCmd)
 	responses := strings.Split(string(resp), "\r\n")
 	responseContainsOut := false
 	for _, value := range responses {
 		fmt.Println("Slice: ", value)
-		if len(value) > 5 {
+		if len(value) > 3 {
 			responseContainsOut = strings.Contains(string(value), parseCmd)
 		} else {
 			continue
@@ -255,7 +268,7 @@ func parseVolumeResponse(resp []byte, output string, parseCmd string) (input int
 			}
 			return input, nil
 		} else {
-			err = fmt.Errorf("invalid response: %s", resp)
+			err = fmt.Errorf("invalid volume response: %s", resp)
 			continue
 		}
 	}
@@ -291,7 +304,7 @@ func parseMuteResponse(resp []byte, output string, parseCmd string) (mute bool, 
 			fmt.Println("mute return: ", mute)
 			return mute, nil
 		} else {
-			err = fmt.Errorf("invalid response: %s", resp)
+			err = fmt.Errorf("invalid mute response: %s", resp)
 			continue
 		}
 	}
@@ -299,7 +312,6 @@ func parseMuteResponse(resp []byte, output string, parseCmd string) (mute bool, 
 }
 
 func convertVolume(volume string, device string) string {
-	//fmt.Printf("\nconvertVolume Incoming Values volume: %s, device: %s\n", volume, device)
 	vtmp, err := strconv.Atoi(volume)
 	v := float64(vtmp) //make a float64 for accuracy otherwise 50 returns 49
 	if v > 100 {
@@ -330,13 +342,11 @@ func convertVolume(volume string, device string) string {
 	}
 
 	vol := ((devHi-devLo)*(v-outMin))/(outMax-outMin) + devLo
-	//fmt.Printf("Incoming Volume: %s, devHi: %f, devLo: %f, vol: %f\n", volume, devHi, devLo, vol)
 	volToSend := int(vol)
 	return fmt.Sprint(volToSend)
 }
 
 func convertReceiveVolume(volume string, device string) string {
-	//fmt.Printf("\nconvertVolume Incoming Values volume: %s, device: %s\n", volume, device)
 	vtmp, err := strconv.Atoi(volume)
 	v := float64(vtmp) //make a float64 for accuracy otherwise 50 returns 49
 
@@ -361,7 +371,6 @@ func convertReceiveVolume(volume string, device string) string {
 		devLo = 0
 	}
 	vol := ((outMax-outMin)*(v-devLo))/(devHi-devLo) + outMin
-	//fmt.Printf("Incoming Volume: %s, devHi: %f, devLo: %f, vol: %f\n", volume, devHi, devLo, vol)
 	volToSend := int(vol)
 	if volToSend > 100 {
 		volToSend = 100

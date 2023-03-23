@@ -16,33 +16,36 @@ var CurrentInput = "hdmi1"
 // 6x2 response format: {"input":"1:hdmiOutA"}
 func SetInput(address string, input string, output string) (Input, error) {
 	var (
-		out  string
-		inpt Input
+		out       string
+		inpt      Input
+		parseResp string
 	)
+	out = "x1" //default to x1 if nothing matches
+	parseResp = "x1"
 
-	switch output {
-	case "hdmiOutA": //for 6x2
+	switch {
+	case strings.Contains(output, "A") || strings.Contains(output, "a") || strings.Contains(output, "1") || strings.Contains(output, "0"):
+		//A/a for 6x1, 1 for 5x1 0 for 4x1
 		out = "x1"
-	case "hdmiOutB": //for 6x2
+		parseResp = "x1"
+	case strings.Contains(output, "B") || strings.Contains(output, "b"): //for 6x2 out B
 		out = "x2"
-	case "mirror": //for 6x2 mirrored
+		parseResp = "x2"
+	case strings.Contains(output, "mirror"): //for 6x2 mirrored
 		out = "x1,x2"
-	case "1": //for 5x1 or other single output switcher
-		out = "x1"
+		parseResp = "x1"
 	default:
-		err := fmt.Errorf("invalid output: %s", output)
+		err := fmt.Errorf("invalid device. expected to contain A, a, 1, 0, B, b, or mirror: %s", output)
 		return inpt, err
 	}
-	//fmt.Println("******************************* Out:", out)
 
 	payload := "x" + input + "AV" + out + "\r" //syntax is xYAVxZ Y=input number, Z=output number
-	//fmt.Println("String to send: ", payload)
 
 	resp, err := sendCommand(address, []byte(payload))
 	if err != nil {
 		return inpt, err
 	}
-	inpt.Input, err = parseResponse(resp, output, out)
+	inpt.Input, err = parseResponse(resp, output, parseResp)
 	if err != nil {
 		return inpt, err
 	}
@@ -56,24 +59,19 @@ func GetInput(address string, output string) (Input, error) {
 	var input Input
 	out := ""
 	//fmt.Println("******************************* Output:", output)
-	switch output {
-	case "hdmiOutA": //for 6x2
+	switch {
+	case strings.Contains(output, "A") || strings.Contains(output, "a") || strings.Contains(output, "1") || strings.Contains(output, "0"):
 		out = "x1"
-	case "hdmiOutB": //for 6x2
+	case strings.Contains(output, "B") || strings.Contains(output, "b"): //for 6x2
 		out = "x2"
-	case "mirror": //for 6x2 mirrored
+	case strings.Contains(output, "mirror"): //for 6x2 mirrored
 		out = "x1"
-	case "1": //for 5x1 or other single output switcher
-		out = "x1"
-		//fmt.Println("5x1 case")
 	default:
-		err := fmt.Errorf("invalid output: %s", output)
+		err := fmt.Errorf("invalid device. expected to contain A, a, 1, 0, B, b, or mirror: %s", output)
 		return input, err
 	}
-	//fmt.Println("******************************* Out:", out)
 
 	payload := []byte("Status\r")
-	//fmt.Println("Payload: ", payload)
 	resp, err := sendCommand(address, payload)
 	if err != nil {
 		return input, err
@@ -88,25 +86,15 @@ func GetInput(address string, output string) (Input, error) {
 }
 
 func parseResponse(resp []byte, output string, out string) (input string, err error) {
-	//fmt.Println("Response: ", string(resp))
 	responses := strings.Split(string(resp), "\r\n")
-	//fmt.Printf("Responses: %x \r\n", responses)
-	//fmt.Printf("Responses: %s \r\n", responses)
 	responseContainsOut := false
 	for _, value := range responses {
-		//fmt.Println(index)
-		//fmt.Println("Slice: ", value)
 		if len(value) > 5 {
-			//fmt.Println("Output Port: ", string(value[4:]))
-			//fmt.Println("Out: ", out)
 			responseContainsOut = strings.Contains(string(value[4:]), out)
 		} else {
 			continue
 		}
-		//fmt.Println(len(value), responseContainsOut)
 		if responseContainsOut {
-			//fmt.Println("true dat")
-			//fmt.Println(string(value[1]))
 			respValue := string(value[1]) + ":" + output
 			input = respValue
 			return input, nil

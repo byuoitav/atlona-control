@@ -51,6 +51,8 @@ build: deps
 	@echo
 	@echo Build output is located in ./dist/.
 
+	@echo COMMIT_HASH: $(COMMIT_HASH)   TAG: $(TAG)
+
 docker: clean build
 ifeq ($(COMMIT_HASH),$(TAG))
 	@echo Building dev container with tag $(COMMIT_HASH)
