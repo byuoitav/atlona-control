@@ -15,7 +15,7 @@ import (
 // communication needs to be buffered/slowed down in this package
 var takeANumber int
 
-const communicationFrequency int = 1000 //time in ms for polling
+const communicationFrequency int = 1300 //time in ms for polling
 
 func init() {
 	go func() {

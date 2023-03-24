@@ -47,7 +47,7 @@ type Mute struct {
 func SetMute(address string, output string, status bool, device string) (Mute, error) {
 	fmt.Printf("Incoming vars: address: %s, output: %s, status: %t, device: %s\r\n", address, output, status, device)
 	var state Mute
-
+	port := "23"
 	cmd := ""
 	parseCmd := ""
 
@@ -80,7 +80,7 @@ func SetMute(address string, output string, status bool, device string) (Mute, e
 		return state, err
 	}
 
-	resp, err := sendCommand(address, []byte(cmd))
+	resp, err := sendCommand(address, port, []byte(cmd))
 	if err != nil {
 		return state, err
 	}
@@ -101,7 +101,7 @@ func SetMute(address string, output string, status bool, device string) (Mute, e
 func GetMute(address string, output string, device string) (Mute, error) {
 	fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
 	var state Mute
-
+	port := "23"
 	cmd := ""
 	parseCmd := ""
 	switch device {
@@ -128,7 +128,7 @@ func GetMute(address string, output string, device string) (Mute, error) {
 		return state, err
 	}
 
-	resp, err := sendCommand(address, []byte(cmd))
+	resp, err := sendCommand(address, port, []byte(cmd))
 	if err != nil {
 		return state, err
 	}
@@ -150,7 +150,7 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 	var level Volume
 
 	vol := convertVolume(volume, device)
-
+	port := "23"
 	cmd := ""
 	parseCmd := ""
 	switch device {
@@ -177,7 +177,7 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 		return level, err
 	}
 
-	resp, err := sendCommand(address, []byte(cmd))
+	resp, err := sendCommand(address, port, []byte(cmd))
 	if err != nil {
 		return level, err
 	}
@@ -201,7 +201,7 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 // 52 - Out1 - VOUT1 sta
 func GetVolume(address string, output string, device string) (Volume, error) {
 	var level Volume
-
+	port := "23"
 	cmd := ""
 	parseCmd := ""
 	switch device {
@@ -228,7 +228,7 @@ func GetVolume(address string, output string, device string) (Volume, error) {
 		return level, err
 	}
 
-	resp, err := sendCommand(address, []byte(cmd))
+	resp, err := sendCommand(address, port, []byte(cmd))
 	if err != nil {
 		return level, err
 	}
@@ -317,13 +317,15 @@ func convertVolume(volume string, device string) string {
 	if v > 100 {
 		v = 100
 	}
-	if v < 0 {
+	if v < 1 {
 		v = 0
 	}
 	outMax := 100.0
 	outMin := 0.0
 	devHi := 100.0
 	devLo := 0.0
+	mutedLevel := 0.0
+
 	if err != nil {
 		fmt.Println(err)
 		return "0"
@@ -331,17 +333,25 @@ func convertVolume(volume string, device string) string {
 
 	switch device {
 	case "AT-UHD-SW-52ED": //range -80 - 15
-		devHi = 15
-		devLo = -80
+		devHi = 0
+		devLo = -50
+		mutedLevel = -80
+
 	case "AT-OME-PS62": //range -90 - 10
-		devHi = 10
-		devLo = -90
+		devHi = 0
+		devLo = -50
+		mutedLevel = -90
 	case "AT-GAIN-60": //range   0 - 100
 		devHi = 100
-		devLo = 0
+		devLo = 50
+		mutedLevel = 0
 	}
 
 	vol := ((devHi-devLo)*(v-outMin))/(outMax-outMin) + devLo
+	if v < 1 {
+		vol = mutedLevel
+	}
+
 	volToSend := int(vol)
 	return fmt.Sprint(volToSend)
 }
@@ -361,21 +371,21 @@ func convertReceiveVolume(volume string, device string) string {
 
 	switch device {
 	case "AT-UHD-SW-52ED": //range -80 - 15
-		devHi = 15.0
-		devLo = -80.0
+		devHi = 0
+		devLo = -50
 	case "AT-OME-PS62": //range -90 - 10
-		devHi = 10.0
-		devLo = -90
+		devHi = 0
+		devLo = -50
 	case "AT-GAIN-60": //range   0 - 100
 		devHi = 100
-		devLo = 0
+		devLo = 50
 	}
 	vol := ((outMax-outMin)*(v-devLo))/(devHi-devLo) + outMin
 	volToSend := int(vol)
 	if volToSend > 100 {
 		volToSend = 100
 	}
-	if volToSend < 0 {
+	if volToSend < 1 {
 		volToSend = 0
 	}
 	return fmt.Sprint(volToSend)

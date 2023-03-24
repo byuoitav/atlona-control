@@ -28,8 +28,8 @@ func createConnection(address string, port string) (*net.TCPConn, error) {
 }
 
 // SendCommand opens a connection with <addr> and sends the <command> to the via, returning the response, or an error if one occured.
-func sendCommand(address string, cmd []byte) ([]byte, error) {
-	port := "23"
+func sendCommand(address string, port string, cmd []byte) ([]byte, error) {
+	//port := "23"
 
 	// get the connection
 	fmt.Printf("\n\nOpening telnet connection with address: %s command decimal: %d, command: %s\n", address, cmd, string(cmd))

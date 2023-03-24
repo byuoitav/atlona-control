@@ -20,6 +20,7 @@ func SetInput(address string, input string, output string) (Input, error) {
 		inpt      Input
 		parseResp string
 	)
+	port := "23"
 	out = "x1" //default to x1 if nothing matches
 	parseResp = "x1"
 
@@ -41,7 +42,7 @@ func SetInput(address string, input string, output string) (Input, error) {
 
 	payload := "x" + input + "AV" + out + "\r" //syntax is xYAVxZ Y=input number, Z=output number
 
-	resp, err := sendCommand(address, []byte(payload))
+	resp, err := sendCommand(address, port, []byte(payload))
 	if err != nil {
 		return inpt, err
 	}
@@ -57,6 +58,7 @@ func SetInput(address string, input string, output string) (Input, error) {
 // 6x2 response format: {"input":"1:hdmiOutA"}
 func GetInput(address string, output string) (Input, error) {
 	var input Input
+	port := "23"
 	out := ""
 	switch {
 	case strings.Contains(output, "A") || strings.Contains(output, "a") || strings.Contains(output, "1") || strings.Contains(output, "0"):
@@ -71,7 +73,7 @@ func GetInput(address string, output string) (Input, error) {
 	}
 
 	payload := []byte("Status\r")
-	resp, err := sendCommand(address, payload)
+	resp, err := sendCommand(address, port, payload)
 	if err != nil {
 		return input, err
 	}
