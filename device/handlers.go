@@ -6,9 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/byuoitav/clevertouch-control/device/actions"
+	"github.com/byuoitav/atlona-control/device/actions"
 	"go.uber.org/zap"
 
+	//"github.com/byuoitav/clevertouch-control/device/actions"
 	"github.com/gin-gonic/gin"
 )
 
