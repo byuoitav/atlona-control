@@ -1,4 +1,4 @@
-module github.com/byuoitav/clevertouch-control
+module github.com/byuoitav/atlona-control
 
 go 1.19
 

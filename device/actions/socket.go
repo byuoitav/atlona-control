@@ -37,6 +37,7 @@ func sendCommand(address string, port string, cmd []byte) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer conn.Close()
 
 	timeoutDuration := 100 * time.Millisecond
 
@@ -85,7 +86,7 @@ func sendCommand(address string, port string, cmd []byte) ([]byte, error) {
 	//read response to command - may get multiple responses (aka multiple \n's)
 	timeoutDuration = 500 * time.Millisecond
 	conn.SetReadDeadline(time.Now().Add(timeoutDuration))
-	readTime = time.Millisecond * 100
+	readTime = time.Millisecond * 50
 	for start := time.Now(); ; {
 		if time.Since(start) > readTime {
 			break
@@ -95,15 +96,11 @@ func sendCommand(address string, port string, cmd []byte) ([]byte, error) {
 			resp = append(resp, tempResp...)
 		}
 		if err != nil {
-			err = fmt.Errorf("error reading from system: %s", err.Error())
-			fmt.Println(err.Error())
 			continue
 		}
-		fmt.Printf("The second response is: %s\r\n", resp)
-		time.Sleep(time.Duration(10 * time.Millisecond))
-
 	}
-
+	fmt.Printf("The second response is: %s\r\n", resp)
+	fmt.Println("decimal: ", resp)
 	if err != nil {
 		conn.Close()
 		return nil, err
@@ -116,8 +113,6 @@ func sendCommand(address string, port string, cmd []byte) ([]byte, error) {
 		return nil, err
 	}
 
-	fmt.Printf("Response from device: %s\n", resp)
-	fmt.Println(resp)
 	conn.Close()
 	return resp, nil
 }

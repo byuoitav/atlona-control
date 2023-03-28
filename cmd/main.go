@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/byuoitav/clevertouch-control/device"
+	"github.com/byuoitav/atlona-control/device"
 	"github.com/gin-gonic/gin"
 
 	"github.com/spf13/pflag"

@@ -1,0 +1,1046 @@
+
+Count: 1,     Time: 2023-03-27 13:40:20.1617915 -0600 MDT m=+2.117223901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 2,     Time: 2023-03-27 13:40:22.274653 -0600 MDT m=+4.230077601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 3,     Time: 2023-03-27 13:40:24.3881159 -0600 MDT m=+6.343532701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 4,     Time: 2023-03-27 13:40:26.50024 -0600 MDT m=+8.455649001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 5,     Time: 2023-03-27 13:40:28.6119128 -0600 MDT m=+10.567314001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 6,     Time: 2023-03-27 13:40:30.7246462 -0600 MDT m=+12.680039601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 7,     Time: 2023-03-27 13:40:32.8378713 -0600 MDT m=+14.793256901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 8,     Time: 2023-03-27 13:40:34.9514823 -0600 MDT m=+16.906860201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 9,     Time: 2023-03-27 13:40:37.0638574 -0600 MDT m=+19.019227701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 10,     Time: 2023-03-27 13:40:39.1776355 -0600 MDT m=+21.132998201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 11,     Time: 2023-03-27 13:40:41.2922276 -0600 MDT m=+23.247582701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 12,     Time: 2023-03-27 13:40:43.4055145 -0600 MDT m=+25.360862001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 13,     Time: 2023-03-27 13:40:45.5190562 -0600 MDT m=+27.474396101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 14,     Time: 2023-03-27 13:40:47.6321331 -0600 MDT m=+29.587465401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 15,     Time: 2023-03-27 13:40:49.7434028 -0600 MDT m=+31.698727501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 16,     Time: 2023-03-27 13:40:51.8547007 -0600 MDT m=+33.810017801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 17,     Time: 2023-03-27 13:40:53.9658395 -0600 MDT m=+35.921149001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 18,     Time: 2023-03-27 13:40:56.0763711 -0600 MDT m=+38.031673001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 19,     Time: 2023-03-27 13:40:58.1890023 -0600 MDT m=+40.144296601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 20,     Time: 2023-03-27 13:41:00.3011355 -0600 MDT m=+42.256422201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 21,     Time: 2023-03-27 13:41:02.4122371 -0600 MDT m=+44.367516201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 22,     Time: 2023-03-27 13:41:04.5253281 -0600 MDT m=+46.480599601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 23,     Time: 2023-03-27 13:41:06.6378992 -0600 MDT m=+48.593163101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 24,     Time: 2023-03-27 13:41:08.7481783 -0600 MDT m=+50.703434601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 25,     Time: 2023-03-27 13:41:10.8619106 -0600 MDT m=+52.817159301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 26,     Time: 2023-03-27 13:41:12.97334 -0600 MDT m=+54.928581101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 27,     Time: 2023-03-27 13:41:15.086456 -0600 MDT m=+57.041689501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 28,     Time: 2023-03-27 13:41:17.2015904 -0600 MDT m=+59.156816201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 29,     Time: 2023-03-27 13:41:19.317495 -0600 MDT m=+61.272713201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 30,     Time: 2023-03-27 13:41:21.4288588 -0600 MDT m=+63.384069401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 31,     Time: 2023-03-27 13:41:23.5402333 -0600 MDT m=+65.495436301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 32,     Time: 2023-03-27 13:41:25.6527544 -0600 MDT m=+67.607949801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 33,     Time: 2023-03-27 13:41:27.7632487 -0600 MDT m=+69.718436501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 34,     Time: 2023-03-27 13:41:29.876944 -0600 MDT m=+71.832124201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 35,     Time: 2023-03-27 13:41:31.9893577 -0600 MDT m=+73.944530301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 36,     Time: 2023-03-27 13:41:34.1026396 -0600 MDT m=+76.057804601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 37,     Time: 2023-03-27 13:41:36.2146215 -0600 MDT m=+78.169778901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 38,     Time: 2023-03-27 13:41:38.3259863 -0600 MDT m=+80.281136101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 39,     Time: 2023-03-27 13:41:40.4405706 -0600 MDT m=+82.395712801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 40,     Time: 2023-03-27 13:41:42.5511316 -0600 MDT m=+84.506266201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 41,     Time: 2023-03-27 13:41:44.6655382 -0600 MDT m=+86.620665201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 42,     Time: 2023-03-27 13:41:46.7779338 -0600 MDT m=+88.733053201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 43,     Time: 2023-03-27 13:41:48.8898311 -0600 MDT m=+90.844942901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 44,     Time: 2023-03-27 13:41:51.0022111 -0600 MDT m=+92.957315301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 45,     Time: 2023-03-27 13:41:53.1167279 -0600 MDT m=+95.071824501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 46,     Time: 2023-03-27 13:41:55.2294714 -0600 MDT m=+97.184560301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 47,     Time: 2023-03-27 13:41:57.3419069 -0600 MDT m=+99.296988201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 48,     Time: 2023-03-27 13:41:59.4549983 -0600 MDT m=+101.410072001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 49,     Time: 2023-03-27 13:42:01.5670973 -0600 MDT m=+103.522163401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 50,     Time: 2023-03-27 13:42:03.6778763 -0600 MDT m=+105.632934801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 51,     Time: 2023-03-27 13:42:05.7914943 -0600 MDT m=+107.746545201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 52,     Time: 2023-03-27 13:42:07.9053353 -0600 MDT m=+109.860378601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 53,     Time: 2023-03-27 13:42:10.0175664 -0600 MDT m=+111.972602101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 54,     Time: 2023-03-27 13:42:12.1294507 -0600 MDT m=+114.084478801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 55,     Time: 2023-03-27 13:42:14.2443023 -0600 MDT m=+116.199322801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 56,     Time: 2023-03-27 13:42:16.3564784 -0600 MDT m=+118.311491301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 57,     Time: 2023-03-27 13:42:18.4687174 -0600 MDT m=+120.423722701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 58,     Time: 2023-03-27 13:42:20.5823993 -0600 MDT m=+122.537397001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 59,     Time: 2023-03-27 13:42:22.6944588 -0600 MDT m=+124.649448901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 60,     Time: 2023-03-27 13:42:24.8073087 -0600 MDT m=+126.762291201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 61,     Time: 2023-03-27 13:42:26.9201775 -0600 MDT m=+128.875152401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 62,     Time: 2023-03-27 13:42:29.0330363 -0600 MDT m=+130.988003601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 63,     Time: 2023-03-27 13:42:31.1450413 -0600 MDT m=+133.100001001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 64,     Time: 2023-03-27 13:42:33.2581836 -0600 MDT m=+135.213135601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 65,     Time: 2023-03-27 13:42:35.3691518 -0600 MDT m=+137.324096201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 66,     Time: 2023-03-27 13:42:37.4823739 -0600 MDT m=+139.437310701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 67,     Time: 2023-03-27 13:42:39.5945422 -0600 MDT m=+141.549471401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 68,     Time: 2023-03-27 13:42:41.706519 -0600 MDT m=+143.661440601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 69,     Time: 2023-03-27 13:42:43.819923 -0600 MDT m=+145.774837001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 70,     Time: 2023-03-27 13:42:45.9307465 -0600 MDT m=+147.885652901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 71,     Time: 2023-03-27 13:42:48.0444012 -0600 MDT m=+149.999300001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 72,     Time: 2023-03-27 13:42:50.1587221 -0600 MDT m=+152.113613301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 73,     Time: 2023-03-27 13:42:52.2716286 -0600 MDT m=+154.226512201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 74,     Time: 2023-03-27 13:42:54.3858361 -0600 MDT m=+156.340712101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 75,     Time: 2023-03-27 13:42:56.4971993 -0600 MDT m=+158.452067701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 76,     Time: 2023-03-27 13:42:58.6074848 -0600 MDT m=+160.562345601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 77,     Time: 2023-03-27 13:43:00.7217582 -0600 MDT m=+162.676611401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 78,     Time: 2023-03-27 13:43:02.8340731 -0600 MDT m=+164.788918701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 79,     Time: 2023-03-27 13:43:04.9467949 -0600 MDT m=+166.901632901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 80,     Time: 2023-03-27 13:43:07.0587113 -0600 MDT m=+169.013541701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 81,     Time: 2023-03-27 13:43:09.1740758 -0600 MDT m=+171.128898501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 82,     Time: 2023-03-27 13:43:11.2872156 -0600 MDT m=+173.242030701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 83,     Time: 2023-03-27 13:43:13.3985922 -0600 MDT m=+175.353399701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 84,     Time: 2023-03-27 13:43:15.5126379 -0600 MDT m=+177.467437801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 85,     Time: 2023-03-27 13:43:17.6251797 -0600 MDT m=+179.579972001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 86,     Time: 2023-03-27 13:43:19.7407044 -0600 MDT m=+181.695489101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 87,     Time: 2023-03-27 13:43:21.8526229 -0600 MDT m=+183.807400001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 88,     Time: 2023-03-27 13:43:23.9651515 -0600 MDT m=+185.919921001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 89,     Time: 2023-03-27 13:43:26.0785823 -0600 MDT m=+188.033344201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 90,     Time: 2023-03-27 13:43:28.1911881 -0600 MDT m=+190.145942401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 91,     Time: 2023-03-27 13:43:30.3053435 -0600 MDT m=+192.260090201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 92,     Time: 2023-03-27 13:43:32.4156487 -0600 MDT m=+194.370387801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 93,     Time: 2023-03-27 13:43:34.5281692 -0600 MDT m=+196.482900701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 94,     Time: 2023-03-27 13:43:36.6409157 -0600 MDT m=+198.595639601,     Response: {3:A},     Error: %!s(<nil>)
+Count: 95,     Time: 2023-03-27 13:43:38.7537958 -0600 MDT m=+200.708512101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 96,     Time: 2023-03-27 13:43:40.8667142 -0600 MDT m=+202.821422901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 97,     Time: 2023-03-27 13:43:42.9795929 -0600 MDT m=+204.934293901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 98,     Time: 2023-03-27 13:43:45.092668 -0600 MDT m=+207.047361401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 99,     Time: 2023-03-27 13:43:47.2062974 -0600 MDT m=+209.160983201,     Response: {3:A},     Error: %!s(<nil>)
+Count: 100,     Time: 2023-03-27 13:43:49.3196801 -0600 MDT m=+211.274358301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 101,     Time: 2023-03-27 13:43:51.4334819 -0600 MDT m=+213.388152501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 102,     Time: 2023-03-27 13:43:53.5462727 -0600 MDT m=+215.500935701,     Response: {3:A},     Error: %!s(<nil>)
+Count: 103,     Time: 2023-03-27 13:43:55.6593176 -0600 MDT m=+217.613973001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 104,     Time: 2023-03-27 13:43:57.7716217 -0600 MDT m=+219.726269501,     Response: {3:A},     Error: %!s(<nil>)
+Count: 105,     Time: 2023-03-27 13:43:59.8860187 -0600 MDT m=+221.840658901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 106,     Time: 2023-03-27 13:44:01.9988927 -0600 MDT m=+223.953525301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 107,     Time: 2023-03-27 13:44:04.1108898 -0600 MDT m=+226.065514801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 108,     Time: 2023-03-27 13:44:06.2258145 -0600 MDT m=+228.180431901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 109,     Time: 2023-03-27 13:44:08.3389652 -0600 MDT m=+230.293575001,     Response: {3:A},     Error: %!s(<nil>)
+Count: 110,     Time: 2023-03-27 13:44:10.4531818 -0600 MDT m=+232.407783901,     Response: {3:A},     Error: %!s(<nil>)
+Count: 111,     Time: 2023-03-27 13:44:12.5649876 -0600 MDT m=+234.519582101,     Response: {2:A},     Error: %!s(<nil>)
+Count: 112,     Time: 2023-03-27 13:44:14.6780504 -0600 MDT m=+236.632637301,     Response: {2:A},     Error: %!s(<nil>)
+Count: 113,     Time: 2023-03-27 13:44:16.7899503 -0600 MDT m=+238.744529601,     Response: {2:A},     Error: %!s(<nil>)
+Count: 114,     Time: 2023-03-27 13:44:18.9027576 -0600 MDT m=+240.857329301,     Response: {2:A},     Error: %!s(<nil>)
+Count: 115,     Time: 2023-03-27 13:44:21.0177371 -0600 MDT m=+242.972301201,     Response: {2:A},     Error: %!s(<nil>)
+Count: 116,     Time: 2023-03-27 13:44:23.1305828 -0600 MDT m=+245.085139301,     Response: {2:A},     Error: %!s(<nil>)
+Count: 117,     Time: 2023-03-27 13:44:25.2454726 -0600 MDT m=+247.200021501,     Response: {2:A},     Error: %!s(<nil>)
+Count: 118,     Time: 2023-03-27 13:44:27.3582636 -0600 MDT m=+249.312804901,     Response: {2:A},     Error: %!s(<nil>)
+Count: 119,     Time: 2023-03-27 13:44:29.4712231 -0600 MDT m=+251.425756801,     Response: {2:A},     Error: %!s(<nil>)
+Count: 120,     Time: 2023-03-27 13:44:31.58527 -0600 MDT m=+253.539796101,     Response: {1:A},     Error: %!s(<nil>)
+Count: 121,     Time: 2023-03-27 13:44:33.3068359 -0600 MDT m=+255.261355801,     Response: {1:A},     Error: %!s(<nil>)
+Count: 122,     Time: 2023-03-27 13:44:35.4198796 -0600 MDT m=+257.374391901,     Response: {1:A},     Error: %!s(<nil>)
+Count: 123,     Time: 2023-03-27 13:44:37.5336538 -0600 MDT m=+259.488158501,     Response: {1:A},     Error: %!s(<nil>)
+Count: 124,     Time: 2023-03-27 13:44:39.6464128 -0600 MDT m=+261.600909801,     Response: {1:A},     Error: %!s(<nil>)
+Count: 125,     Time: 2023-03-27 13:44:41.7601226 -0600 MDT m=+263.714612001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 126,     Time: 2023-03-27 13:44:43.8735873 -0600 MDT m=+265.828069101,     Response: {1:A},     Error: %!s(<nil>)
+Count: 127,     Time: 2023-03-27 13:44:45.985994 -0600 MDT m=+267.940468201,     Response: {1:A},     Error: %!s(<nil>)
+Count: 128,     Time: 2023-03-27 13:44:48.1001169 -0600 MDT m=+270.054583501,     Response: {1:A},     Error: %!s(<nil>)
+Count: 129,     Time: 2023-03-27 13:44:50.2146592 -0600 MDT m=+272.169118201,     Response: {1:A},     Error: %!s(<nil>)
+Count: 130,     Time: 2023-03-27 13:44:52.3273466 -0600 MDT m=+274.281798001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 131,     Time: 2023-03-27 13:44:54.4414835 -0600 MDT m=+276.395927301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 132,     Time: 2023-03-27 13:44:56.5554955 -0600 MDT m=+278.509931701,     Response: {1:A},     Error: %!s(<nil>)
+Count: 133,     Time: 2023-03-27 13:44:58.6685065 -0600 MDT m=+280.622935101,     Response: {1:A},     Error: %!s(<nil>)
+Count: 134,     Time: 2023-03-27 13:45:00.7815499 -0600 MDT m=+282.735970901,     Response: {1:A},     Error: %!s(<nil>)
+Count: 135,     Time: 2023-03-27 13:45:02.8953009 -0600 MDT m=+284.849714301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 136,     Time: 2023-03-27 13:45:05.0110987 -0600 MDT m=+286.965504401,     Response: {1:A},     Error: %!s(<nil>)
+Count: 137,     Time: 2023-03-27 13:45:07.1251511 -0600 MDT m=+289.079549201,     Response: {1:A},     Error: %!s(<nil>)
+Count: 138,     Time: 2023-03-27 13:45:09.2374341 -0600 MDT m=+291.191824601,     Response: {1:A},     Error: %!s(<nil>)
+Count: 139,     Time: 2023-03-27 13:45:11.3483734 -0600 MDT m=+293.302756301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 140,     Time: 2023-03-27 13:45:13.4594529 -0600 MDT m=+295.413828201,     Response: {1:A},     Error: %!s(<nil>)
+Count: 141,     Time: 2023-03-27 13:45:15.5751037 -0600 MDT m=+297.529471401,     Response: {1:A},     Error: %!s(<nil>)
+Count: 142,     Time: 2023-03-27 13:45:17.6905962 -0600 MDT m=+299.644956301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 143,     Time: 2023-03-27 13:45:19.8060612 -0600 MDT m=+301.760413701,     Response: {1:A},     Error: %!s(<nil>)
+Count: 144,     Time: 2023-03-27 13:45:21.9185978 -0600 MDT m=+303.872942701,     Response: {1:A},     Error: %!s(<nil>)
+Count: 145,     Time: 2023-03-27 13:45:24.0319497 -0600 MDT m=+305.986287001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 146,     Time: 2023-03-27 13:45:26.1450741 -0600 MDT m=+308.099403801,     Response: {1:A},     Error: %!s(<nil>)
+Count: 147,     Time: 2023-03-27 13:45:28.2583036 -0600 MDT m=+310.212625601,     Response: {1:A},     Error: %!s(<nil>)
+Count: 148,     Time: 2023-03-27 13:45:30.3732749 -0600 MDT m=+312.327589301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 149,     Time: 2023-03-27 13:45:32.4848912 -0600 MDT m=+314.439198001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 150,     Time: 2023-03-27 13:45:34.5979514 -0600 MDT m=+316.552251001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 151,     Time: 2023-03-27 13:45:36.7136479 -0600 MDT m=+318.667940301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 152,     Time: 2023-03-27 13:45:38.8271045 -0600 MDT m=+320.781389701,     Response: {1:A},     Error: %!s(<nil>)
+Count: 153,     Time: 2023-03-27 13:45:40.941624 -0600 MDT m=+322.895902001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 154,     Time: 2023-03-27 13:45:43.0542857 -0600 MDT m=+325.008556601,     Response: {1:A},     Error: %!s(<nil>)
+Count: 155,     Time: 2023-03-27 13:45:45.1684018 -0600 MDT m=+327.122665501,     Response: {1:A},     Error: %!s(<nil>)
+Count: 156,     Time: 2023-03-27 13:45:47.2816825 -0600 MDT m=+329.235939001,     Response: {1:A},     Error: %!s(<nil>)
+Count: 157,     Time: 2023-03-27 13:45:49.394187 -0600 MDT m=+331.348436301,     Response: {1:A},     Error: %!s(<nil>)
+Count: 158,     Time: 2023-03-27 13:45:51.5074886 -0600 MDT m=+333.461730701,     Response: {1:A},     Error: %!s(<nil>)
+Count: 159,     Time: 2023-03-27 13:45:53.6200347 -0600 MDT m=+335.574269601,     Response: {1:A},     Error: %!s(<nil>)
+Count: 160,     Time: 2023-03-27 13:45:55.7328234 -0600 MDT m=+337.687051201,     Response: {1:A},     Error: %!s(<nil>)
+Count: 161,     Time: 2023-03-27 13:45:57.8462608 -0600 MDT m=+339.800481401,     Response: {1:A},     Error: %!s(<nil>)
+Count: 162,     Time: 2023-03-27 13:45:59.960336 -0600 MDT m=+341.914549401,     Response: {3:A},     Error: %!s(<nil>)
+Count: 163,     Time: 2023-03-27 13:46:02.0740129 -0600 MDT m=+344.028219101,     Response: {3:A},     Error: %!s(<nil>)
+Count: 164,     Time: 2023-03-27 13:46:04.1888273 -0600 MDT m=+346.143026301,     Response: {3:A},     Error: %!s(<nil>)
+Count: 165,     Time: 2023-03-27 13:46:06.303848 -0600 MDT m=+348.258039801,     Response: {3:A},     Error: %!s(<nil>)
+Count: 166,     Time: 2023-03-27 13:46:08.0851905 -0600 MDT m=+350.039376301,     Response: {5:A},     Error: %!s(<nil>)
+Count: 167,     Time: 2023-03-27 13:46:10.2008866 -0600 MDT m=+352.155065201,     Response: {5:A},     Error: %!s(<nil>)
+Count: 168,     Time: 2023-03-27 13:46:12.3133132 -0600 MDT m=+354.267484601,     Response: {5:A},     Error: %!s(<nil>)
+Count: 169,     Time: 2023-03-27 13:46:14.1360769 -0600 MDT m=+356.090242101,     Response: {5:A},     Error: %!s(<nil>)
+Count: 170,     Time: 2023-03-27 13:46:16.2494787 -0600 MDT m=+358.203636701,     Response: {6:A},     Error: %!s(<nil>)
+Count: 171,     Time: 2023-03-27 13:46:18.3627882 -0600 MDT m=+360.316939001,     Response: {6:A},     Error: %!s(<nil>)
+Count: 172,     Time: 2023-03-27 13:46:20.380859 -0600 MDT m=+362.335003001,     Response: {6:A},     Error: %!s(<nil>)
+Count: 173,     Time: 2023-03-27 13:46:22.4947549 -0600 MDT m=+364.448891701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 174,     Time: 2023-03-27 13:46:24.6102892 -0600 MDT m=+366.564418801,     Response: {0:A},     Error: %!s(<nil>)
+Count: 175,     Time: 2023-03-27 13:46:26.7237 -0600 MDT m=+368.677822401,     Response: {0:A},     Error: %!s(<nil>)
+Count: 176,     Time: 2023-03-27 13:46:28.7709945 -0600 MDT m=+370.725109901,     Response: {0:A},     Error: %!s(<nil>)
+Count: 177,     Time: 2023-03-27 13:46:30.8844381 -0600 MDT m=+372.838546301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 178,     Time: 2023-03-27 13:46:32.9971888 -0600 MDT m=+374.951289901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 179,     Time: 2023-03-27 13:46:35.1111563 -0600 MDT m=+377.065250201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 180,     Time: 2023-03-27 13:46:37.224488 -0600 MDT m=+379.178574701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 181,     Time: 2023-03-27 13:46:39.3389597 -0600 MDT m=+381.293039201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 182,     Time: 2023-03-27 13:46:41.4526681 -0600 MDT m=+383.406740401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 183,     Time: 2023-03-27 13:46:43.5662013 -0600 MDT m=+385.520266401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 184,     Time: 2023-03-27 13:46:45.6804457 -0600 MDT m=+387.634503601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 185,     Time: 2023-03-27 13:46:47.7927492 -0600 MDT m=+389.746800001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 186,     Time: 2023-03-27 13:46:49.907293 -0600 MDT m=+391.861336601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 187,     Time: 2023-03-27 13:46:52.0203759 -0600 MDT m=+393.974412301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 188,     Time: 2023-03-27 13:46:54.1328878 -0600 MDT m=+396.086917001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 189,     Time: 2023-03-27 13:46:56.249532 -0600 MDT m=+398.203554001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 190,     Time: 2023-03-27 13:46:58.3636015 -0600 MDT m=+400.317616301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 191,     Time: 2023-03-27 13:47:00.4778805 -0600 MDT m=+402.431888101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 192,     Time: 2023-03-27 13:47:02.4427463 -0600 MDT m=+404.396747201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 193,     Time: 2023-03-27 13:47:04.5574916 -0600 MDT m=+406.511485401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 194,     Time: 2023-03-27 13:47:06.6712579 -0600 MDT m=+408.625244501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 195,     Time: 2023-03-27 13:47:08.7856454 -0600 MDT m=+410.739624801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 196,     Time: 2023-03-27 13:47:10.9006304 -0600 MDT m=+412.854602601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 197,     Time: 2023-03-27 13:47:13.015288 -0600 MDT m=+414.969253001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 198,     Time: 2023-03-27 13:47:15.1296153 -0600 MDT m=+417.083573101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 199,     Time: 2023-03-27 13:47:17.2422856 -0600 MDT m=+419.196236201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 200,     Time: 2023-03-27 13:47:19.3551913 -0600 MDT m=+421.309134701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 201,     Time: 2023-03-27 13:47:21.4693263 -0600 MDT m=+423.423262601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 202,     Time: 2023-03-27 13:47:23.5838772 -0600 MDT m=+425.537806301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 203,     Time: 2023-03-27 13:47:25.6996767 -0600 MDT m=+427.653598601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 204,     Time: 2023-03-27 13:47:27.8147406 -0600 MDT m=+429.768655301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 205,     Time: 2023-03-27 13:47:29.9283367 -0600 MDT m=+431.882244201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 206,     Time: 2023-03-27 13:47:32.0415544 -0600 MDT m=+433.995454701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 207,     Time: 2023-03-27 13:47:34.1570427 -0600 MDT m=+436.110935801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 208,     Time: 2023-03-27 13:47:36.2695529 -0600 MDT m=+438.223438801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 209,     Time: 2023-03-27 13:47:38.3821828 -0600 MDT m=+440.336061501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 210,     Time: 2023-03-27 13:47:40.4962354 -0600 MDT m=+442.450107001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 211,     Time: 2023-03-27 13:47:42.6106914 -0600 MDT m=+444.564555801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 212,     Time: 2023-03-27 13:47:44.7249404 -0600 MDT m=+446.678797601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 213,     Time: 2023-03-27 13:47:46.838584 -0600 MDT m=+448.792434001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 214,     Time: 2023-03-27 13:47:48.9517292 -0600 MDT m=+450.905572001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 215,     Time: 2023-03-27 13:47:51.0656353 -0600 MDT m=+453.019470901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 216,     Time: 2023-03-27 13:47:53.1803451 -0600 MDT m=+455.134173501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 217,     Time: 2023-03-27 13:47:55.2955952 -0600 MDT m=+457.249416401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 218,     Time: 2023-03-27 13:47:57.4085717 -0600 MDT m=+459.362385801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 219,     Time: 2023-03-27 13:47:59.5225238 -0600 MDT m=+461.476330701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 220,     Time: 2023-03-27 13:48:01.6366879 -0600 MDT m=+463.590487601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 221,     Time: 2023-03-27 13:48:03.7501776 -0600 MDT m=+465.703970101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 222,     Time: 2023-03-27 13:48:05.8638487 -0600 MDT m=+467.817634001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 223,     Time: 2023-03-27 13:48:07.9763297 -0600 MDT m=+469.930107801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 224,     Time: 2023-03-27 13:48:10.0915584 -0600 MDT m=+472.045329301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 225,     Time: 2023-03-27 13:48:12.2048228 -0600 MDT m=+474.158586601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 226,     Time: 2023-03-27 13:48:14.3199172 -0600 MDT m=+476.273673801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 227,     Time: 2023-03-27 13:48:16.4326623 -0600 MDT m=+478.386411701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 228,     Time: 2023-03-27 13:48:18.5457129 -0600 MDT m=+480.499455101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 229,     Time: 2023-03-27 13:48:20.6603459 -0600 MDT m=+482.614080901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 230,     Time: 2023-03-27 13:48:22.7739876 -0600 MDT m=+484.727715401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 231,     Time: 2023-03-27 13:48:24.8888468 -0600 MDT m=+486.842567401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 232,     Time: 2023-03-27 13:48:27.0027376 -0600 MDT m=+488.956451001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 233,     Time: 2023-03-27 13:48:28.7204754 -0600 MDT m=+490.674183001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 234,     Time: 2023-03-27 13:48:30.8356316 -0600 MDT m=+492.789332001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 235,     Time: 2023-03-27 13:48:32.9494573 -0600 MDT m=+494.903150501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 236,     Time: 2023-03-27 13:48:35.0628094 -0600 MDT m=+497.016495401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 237,     Time: 2023-03-27 13:48:37.1750825 -0600 MDT m=+499.128761401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 238,     Time: 2023-03-27 13:48:39.291744 -0600 MDT m=+501.245415701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 239,     Time: 2023-03-27 13:48:41.4066833 -0600 MDT m=+503.360347801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 240,     Time: 2023-03-27 13:48:43.5195082 -0600 MDT m=+505.473165501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 241,     Time: 2023-03-27 13:48:45.6355814 -0600 MDT m=+507.589231501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 242,     Time: 2023-03-27 13:48:47.750125 -0600 MDT m=+509.703767901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 243,     Time: 2023-03-27 13:48:49.8642012 -0600 MDT m=+511.817836901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 244,     Time: 2023-03-27 13:48:51.9765784 -0600 MDT m=+513.930206901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 245,     Time: 2023-03-27 13:48:54.0906541 -0600 MDT m=+516.044275401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 246,     Time: 2023-03-27 13:48:56.2065652 -0600 MDT m=+518.160179301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 247,     Time: 2023-03-27 13:48:58.320357 -0600 MDT m=+520.273964001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 248,     Time: 2023-03-27 13:49:00.4349177 -0600 MDT m=+522.388517501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 249,     Time: 2023-03-27 13:49:02.5470586 -0600 MDT m=+524.500651201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 250,     Time: 2023-03-27 13:49:04.6624711 -0600 MDT m=+526.616056501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 251,     Time: 2023-03-27 13:49:06.7771581 -0600 MDT m=+528.730736301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 252,     Time: 2023-03-27 13:49:08.8904647 -0600 MDT m=+530.844035701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 253,     Time: 2023-03-27 13:49:11.0037567 -0600 MDT m=+532.957320501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 254,     Time: 2023-03-27 13:49:13.1184307 -0600 MDT m=+535.071987301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 255,     Time: 2023-03-27 13:49:15.2338048 -0600 MDT m=+537.187354301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 256,     Time: 2023-03-27 13:49:17.3472159 -0600 MDT m=+539.300758201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 257,     Time: 2023-03-27 13:49:19.4607282 -0600 MDT m=+541.414263301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 258,     Time: 2023-03-27 13:49:21.574583 -0600 MDT m=+543.528110901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 259,     Time: 2023-03-27 13:49:23.6885966 -0600 MDT m=+545.642117301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 260,     Time: 2023-03-27 13:49:25.8032081 -0600 MDT m=+547.756721601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 261,     Time: 2023-03-27 13:49:27.9188951 -0600 MDT m=+549.872401401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 262,     Time: 2023-03-27 13:49:30.0358221 -0600 MDT m=+551.989321201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 263,     Time: 2023-03-27 13:49:32.1505182 -0600 MDT m=+554.104010101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 264,     Time: 2023-03-27 13:49:34.2660804 -0600 MDT m=+556.219565101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 265,     Time: 2023-03-27 13:49:36.3809948 -0600 MDT m=+558.334472401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 266,     Time: 2023-03-27 13:49:38.4957683 -0600 MDT m=+560.449238701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 267,     Time: 2023-03-27 13:49:40.6105141 -0600 MDT m=+562.563977301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 268,     Time: 2023-03-27 13:49:42.7240977 -0600 MDT m=+564.677553701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 269,     Time: 2023-03-27 13:49:44.8381074 -0600 MDT m=+566.791556201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 270,     Time: 2023-03-27 13:49:46.9525603 -0600 MDT m=+568.906001901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 271,     Time: 2023-03-27 13:49:49.0669756 -0600 MDT m=+571.020410001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 272,     Time: 2023-03-27 13:49:51.1831007 -0600 MDT m=+573.136527901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 273,     Time: 2023-03-27 13:49:53.2969881 -0600 MDT m=+575.250408101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 274,     Time: 2023-03-27 13:49:55.4111192 -0600 MDT m=+577.364532101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 275,     Time: 2023-03-27 13:49:57.5235251 -0600 MDT m=+579.476930801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 276,     Time: 2023-03-27 13:49:59.6370407 -0600 MDT m=+581.590439201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 277,     Time: 2023-03-27 13:50:01.7518131 -0600 MDT m=+583.705204401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 278,     Time: 2023-03-27 13:50:03.8681265 -0600 MDT m=+585.821510601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 279,     Time: 2023-03-27 13:50:05.9818277 -0600 MDT m=+587.935204601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 280,     Time: 2023-03-27 13:50:08.0973467 -0600 MDT m=+590.050716401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 281,     Time: 2023-03-27 13:50:10.2123237 -0600 MDT m=+592.165686201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 282,     Time: 2023-03-27 13:50:12.3258489 -0600 MDT m=+594.279204201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 283,     Time: 2023-03-27 13:50:14.4388244 -0600 MDT m=+596.392172601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 284,     Time: 2023-03-27 13:50:16.5527422 -0600 MDT m=+598.506083201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 285,     Time: 2023-03-27 13:50:18.6658435 -0600 MDT m=+600.619177301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 286,     Time: 2023-03-27 13:50:20.7799092 -0600 MDT m=+602.733235801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 287,     Time: 2023-03-27 13:50:22.8936048 -0600 MDT m=+604.846924201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 288,     Time: 2023-03-27 13:50:25.0089746 -0600 MDT m=+606.962286801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 289,     Time: 2023-03-27 13:50:27.1236389 -0600 MDT m=+609.076943901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 290,     Time: 2023-03-27 13:50:29.2398109 -0600 MDT m=+611.193108701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 291,     Time: 2023-03-27 13:50:31.354345 -0600 MDT m=+613.307635601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 292,     Time: 2023-03-27 13:50:33.4677944 -0600 MDT m=+615.421077901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 293,     Time: 2023-03-27 13:50:35.5832393 -0600 MDT m=+617.536515901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 294,     Time: 2023-03-27 13:50:37.6964704 -0600 MDT m=+619.649740001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 295,     Time: 2023-03-27 13:50:39.8107736 -0600 MDT m=+621.764036201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 296,     Time: 2023-03-27 13:50:41.924207 -0600 MDT m=+623.877462601,     Response: {4:A},     Error: %!s(<nil>)
+Count: 297,     Time: 2023-03-27 13:50:44.0388711 -0600 MDT m=+625.992119801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 298,     Time: 2023-03-27 13:50:46.1529013 -0600 MDT m=+628.106143001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 299,     Time: 2023-03-27 13:50:48.267885 -0600 MDT m=+630.221119701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 300,     Time: 2023-03-27 13:50:50.382391 -0600 MDT m=+632.335618701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 301,     Time: 2023-03-27 13:50:52.4977525 -0600 MDT m=+634.450973201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 302,     Time: 2023-03-27 13:50:54.6106114 -0600 MDT m=+636.563825201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 303,     Time: 2023-03-27 13:50:56.7245673 -0600 MDT m=+638.677774101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 304,     Time: 2023-03-27 13:50:58.8383385 -0600 MDT m=+640.791538301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 305,     Time: 2023-03-27 13:51:00.9522445 -0600 MDT m=+642.905437301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 306,     Time: 2023-03-27 13:51:03.0656139 -0600 MDT m=+645.018799801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 307,     Time: 2023-03-27 13:51:05.1800595 -0600 MDT m=+647.133238401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 308,     Time: 2023-03-27 13:51:07.2926068 -0600 MDT m=+649.245778701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 309,     Time: 2023-03-27 13:51:09.408241 -0600 MDT m=+651.361405901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 310,     Time: 2023-03-27 13:51:11.5221413 -0600 MDT m=+653.475299301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 311,     Time: 2023-03-27 13:51:13.6395548 -0600 MDT m=+655.592705801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 312,     Time: 2023-03-27 13:51:15.7521242 -0600 MDT m=+657.705268201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 313,     Time: 2023-03-27 13:51:17.8651272 -0600 MDT m=+659.818264201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 314,     Time: 2023-03-27 13:51:19.9792766 -0600 MDT m=+661.932406701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 315,     Time: 2023-03-27 13:51:22.0930491 -0600 MDT m=+664.046172201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 316,     Time: 2023-03-27 13:51:24.2066032 -0600 MDT m=+666.159719301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 317,     Time: 2023-03-27 13:51:26.3221158 -0600 MDT m=+668.275224901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 318,     Time: 2023-03-27 13:51:28.4372184 -0600 MDT m=+670.390320501,     Response: {4:A},     Error: %!s(<nil>)
+Count: 319,     Time: 2023-03-27 13:51:30.5520908 -0600 MDT m=+672.505186001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 320,     Time: 2023-03-27 13:51:32.6653429 -0600 MDT m=+674.618431101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 321,     Time: 2023-03-27 13:51:34.7793771 -0600 MDT m=+676.732458301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 322,     Time: 2023-03-27 13:51:36.8917432 -0600 MDT m=+678.844817401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 323,     Time: 2023-03-27 13:51:39.0077084 -0600 MDT m=+680.960775701,     Response: {4:A},     Error: %!s(<nil>)
+Count: 324,     Time: 2023-03-27 13:51:41.1223837 -0600 MDT m=+683.075444001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 325,     Time: 2023-03-27 13:51:43.2358305 -0600 MDT m=+685.188883801,     Response: {4:A},     Error: %!s(<nil>)
+Count: 326,     Time: 2023-03-27 13:51:45.3502688 -0600 MDT m=+687.303315101,     Response: {4:A},     Error: %!s(<nil>)
+Count: 327,     Time: 2023-03-27 13:51:47.4644136 -0600 MDT m=+689.417453001,     Response: {4:A},     Error: %!s(<nil>)
+Count: 328,     Time: 2023-03-27 13:51:49.5789985 -0600 MDT m=+691.532030901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 329,     Time: 2023-03-27 13:51:51.2981142 -0600 MDT m=+693.251140901,     Response: {4:A},     Error: %!s(<nil>)
+Count: 330,     Time: 2023-03-27 13:51:53.4139475 -0600 MDT m=+695.366967201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 331,     Time: 2023-03-27 13:51:55.5293345 -0600 MDT m=+697.482347201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 332,     Time: 2023-03-27 13:51:57.6431015 -0600 MDT m=+699.596107301,     Response: {4:A},     Error: %!s(<nil>)
+Count: 333,     Time: 2023-03-27 13:51:59.7573316 -0600 MDT m=+701.710330401,     Response: {4:A},     Error: %!s(<nil>)
+Count: 334,     Time: 2023-03-27 13:52:01.8708514 -0600 MDT m=+703.823843201,     Response: {4:A},     Error: %!s(<nil>)
+Count: 335,     Time: 2023-03-27 13:52:03.985659 -0600 MDT m=+705.938643801,     Response: {},     Error: %!s(<nil>)
+Count: 336,     Time: 2023-03-27 13:52:06.101573 -0600 MDT m=+708.054550901,     Response: {},     Error: %!s(<nil>)
+Count: 337,     Time: 2023-03-27 13:52:08.2152954 -0600 MDT m=+710.168266301,     Response: {},     Error: %!s(<nil>)
+Count: 338,     Time: 2023-03-27 13:52:10.3298095 -0600 MDT m=+712.282773401,     Response: {},     Error: %!s(<nil>)
+Count: 339,     Time: 2023-03-27 13:52:12.4428422 -0600 MDT m=+714.395799101,     Response: {},     Error: %!s(<nil>)
+Count: 340,     Time: 2023-03-27 13:52:13.9716447 -0600 MDT m=+715.924596601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 341,     Time: 2023-03-27 13:52:15.4982783 -0600 MDT m=+717.451225101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 342,     Time: 2023-03-27 13:52:17.024364 -0600 MDT m=+718.977305801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 343,     Time: 2023-03-27 13:52:18.5559341 -0600 MDT m=+720.508870901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 344,     Time: 2023-03-27 13:52:20.0816121 -0600 MDT m=+722.034543801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 345,     Time: 2023-03-27 13:52:21.6069844 -0600 MDT m=+723.559911101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 346,     Time: 2023-03-27 13:52:23.138016 -0600 MDT m=+725.090937601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 347,     Time: 2023-03-27 13:52:24.6688629 -0600 MDT m=+726.621779501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 348,     Time: 2023-03-27 13:52:26.1937788 -0600 MDT m=+728.146690301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 349,     Time: 2023-03-27 13:52:27.7189903 -0600 MDT m=+729.671896801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 350,     Time: 2023-03-27 13:52:29.2461818 -0600 MDT m=+731.199083301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 351,     Time: 2023-03-27 13:52:30.7718187 -0600 MDT m=+732.724715101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 352,     Time: 2023-03-27 13:52:32.2971605 -0600 MDT m=+734.250051901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 353,     Time: 2023-03-27 13:52:33.8310873 -0600 MDT m=+735.783973601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 354,     Time: 2023-03-27 13:52:35.3550245 -0600 MDT m=+737.307905801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 355,     Time: 2023-03-27 13:52:36.8776934 -0600 MDT m=+738.830569701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 356,     Time: 2023-03-27 13:52:38.4011068 -0600 MDT m=+740.353978101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 357,     Time: 2023-03-27 13:52:39.9349732 -0600 MDT m=+741.887839401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 358,     Time: 2023-03-27 13:52:41.4601589 -0600 MDT m=+743.413020101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 359,     Time: 2023-03-27 13:52:42.9830871 -0600 MDT m=+744.935943201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 360,     Time: 2023-03-27 13:52:44.5081955 -0600 MDT m=+746.461046601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 361,     Time: 2023-03-27 13:52:46.033185 -0600 MDT m=+747.986031101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 362,     Time: 2023-03-27 13:52:47.5596848 -0600 MDT m=+749.512525801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 363,     Time: 2023-03-27 13:52:49.0913424 -0600 MDT m=+751.044178401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 364,     Time: 2023-03-27 13:52:50.6182991 -0600 MDT m=+752.571130001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 365,     Time: 2023-03-27 13:52:52.143597 -0600 MDT m=+754.096422901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 366,     Time: 2023-03-27 13:52:53.6742516 -0600 MDT m=+755.627072501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 367,     Time: 2023-03-27 13:52:55.2292071 -0600 MDT m=+757.182022801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 368,     Time: 2023-03-27 13:52:56.7520626 -0600 MDT m=+758.704873301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 369,     Time: 2023-03-27 13:52:58.2763159 -0600 MDT m=+760.229121601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 370,     Time: 2023-03-27 13:52:59.8049481 -0600 MDT m=+761.757748701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 371,     Time: 2023-03-27 13:53:01.338504 -0600 MDT m=+763.291299601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 372,     Time: 2023-03-27 13:53:02.8639232 -0600 MDT m=+764.816713701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 373,     Time: 2023-03-27 13:53:04.3895988 -0600 MDT m=+766.342384301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 374,     Time: 2023-03-27 13:53:05.9155967 -0600 MDT m=+767.868377201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 375,     Time: 2023-03-27 13:53:07.4477683 -0600 MDT m=+769.400543701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 376,     Time: 2023-03-27 13:53:08.9734221 -0600 MDT m=+770.926192501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 377,     Time: 2023-03-27 13:53:10.4999045 -0600 MDT m=+772.452669801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 378,     Time: 2023-03-27 13:53:12.0316734 -0600 MDT m=+773.984433701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 379,     Time: 2023-03-27 13:53:13.557147 -0600 MDT m=+775.509902201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 380,     Time: 2023-03-27 13:53:15.0903197 -0600 MDT m=+777.043069901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 381,     Time: 2023-03-27 13:53:16.6183437 -0600 MDT m=+778.571088801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 382,     Time: 2023-03-27 13:53:18.1441445 -0600 MDT m=+780.096884601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 383,     Time: 2023-03-27 13:53:19.6776042 -0600 MDT m=+781.630339301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 384,     Time: 2023-03-27 13:53:21.2148305 -0600 MDT m=+783.167560501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 385,     Time: 2023-03-27 13:53:22.7477416 -0600 MDT m=+784.700466501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 386,     Time: 2023-03-27 13:53:24.2749712 -0600 MDT m=+786.227691101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 387,     Time: 2023-03-27 13:53:25.800235 -0600 MDT m=+787.752949801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 388,     Time: 2023-03-27 13:53:27.3394852 -0600 MDT m=+789.292195001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 389,     Time: 2023-03-27 13:53:28.8664829 -0600 MDT m=+790.819187601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 390,     Time: 2023-03-27 13:53:30.4193876 -0600 MDT m=+792.372087201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 391,     Time: 2023-03-27 13:53:31.9433599 -0600 MDT m=+793.896054501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 392,     Time: 2023-03-27 13:53:33.4698587 -0600 MDT m=+795.422548201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 393,     Time: 2023-03-27 13:53:34.9951217 -0600 MDT m=+796.947806201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 394,     Time: 2023-03-27 13:53:36.5199814 -0600 MDT m=+798.472660901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 395,     Time: 2023-03-27 13:53:38.0512464 -0600 MDT m=+800.003920801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 396,     Time: 2023-03-27 13:53:39.5782349 -0600 MDT m=+801.530904301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 397,     Time: 2023-03-27 13:53:41.1039472 -0600 MDT m=+803.056611501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 398,     Time: 2023-03-27 13:53:42.6308562 -0600 MDT m=+804.583515501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 399,     Time: 2023-03-27 13:53:44.1563794 -0600 MDT m=+806.109033701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 400,     Time: 2023-03-27 13:53:45.6867607 -0600 MDT m=+807.639409901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 401,     Time: 2023-03-27 13:53:47.2331439 -0600 MDT m=+809.185788001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 402,     Time: 2023-03-27 13:53:48.7585244 -0600 MDT m=+810.711163501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 403,     Time: 2023-03-27 13:53:50.2831898 -0600 MDT m=+812.235823901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 404,     Time: 2023-03-27 13:53:51.8086419 -0600 MDT m=+813.761270901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 405,     Time: 2023-03-27 13:53:53.3339803 -0600 MDT m=+815.286604301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 406,     Time: 2023-03-27 13:53:54.8671694 -0600 MDT m=+816.819788301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 407,     Time: 2023-03-27 13:53:56.3930612 -0600 MDT m=+818.345675101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 408,     Time: 2023-03-27 13:53:57.9186 -0600 MDT m=+819.871208901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 409,     Time: 2023-03-27 13:53:59.4500739 -0600 MDT m=+821.402677701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 410,     Time: 2023-03-27 13:54:00.975238 -0600 MDT m=+822.927836801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 411,     Time: 2023-03-27 13:54:02.5151065 -0600 MDT m=+824.467700201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 412,     Time: 2023-03-27 13:54:04.04677 -0600 MDT m=+825.999358601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 413,     Time: 2023-03-27 13:54:05.5740276 -0600 MDT m=+827.526611201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 414,     Time: 2023-03-27 13:54:07.0995741 -0600 MDT m=+829.052152701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 415,     Time: 2023-03-27 13:54:08.6287347 -0600 MDT m=+830.581308201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 416,     Time: 2023-03-27 13:54:10.1543614 -0600 MDT m=+832.106929901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 417,     Time: 2023-03-27 13:54:11.6784693 -0600 MDT m=+833.631032701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 418,     Time: 2023-03-27 13:54:13.2267586 -0600 MDT m=+835.179316901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 419,     Time: 2023-03-27 13:54:14.7524759 -0600 MDT m=+836.705029201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 420,     Time: 2023-03-27 13:54:16.2816199 -0600 MDT m=+838.234168201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 421,     Time: 2023-03-27 13:54:17.8076252 -0600 MDT m=+839.760168401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 422,     Time: 2023-03-27 13:54:19.3341407 -0600 MDT m=+841.286678901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 423,     Time: 2023-03-27 13:54:20.8694266 -0600 MDT m=+842.821959701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 424,     Time: 2023-03-27 13:54:22.393977 -0600 MDT m=+844.346505101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 425,     Time: 2023-03-27 13:54:23.9207204 -0600 MDT m=+845.873243401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 426,     Time: 2023-03-27 13:54:25.44842 -0600 MDT m=+847.400938001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 427,     Time: 2023-03-27 13:54:26.9748284 -0600 MDT m=+848.927341401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 428,     Time: 2023-03-27 13:54:28.5012467 -0600 MDT m=+850.453754601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 429,     Time: 2023-03-27 13:54:30.0265315 -0600 MDT m=+851.979034401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 430,     Time: 2023-03-27 13:54:31.5524627 -0600 MDT m=+853.504960601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 431,     Time: 2023-03-27 13:54:33.079522 -0600 MDT m=+855.032014801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 432,     Time: 2023-03-27 13:54:34.6108578 -0600 MDT m=+856.563345601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 433,     Time: 2023-03-27 13:54:36.1372683 -0600 MDT m=+858.089751001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 434,     Time: 2023-03-27 13:54:37.663387 -0600 MDT m=+859.615864701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 435,     Time: 2023-03-27 13:54:39.1996586 -0600 MDT m=+861.152131201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 436,     Time: 2023-03-27 13:54:40.7337091 -0600 MDT m=+862.686176701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 437,     Time: 2023-03-27 13:54:42.2602748 -0600 MDT m=+864.212737301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 438,     Time: 2023-03-27 13:54:43.7862024 -0600 MDT m=+865.738659901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 439,     Time: 2023-03-27 13:54:45.3115067 -0600 MDT m=+867.263959201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 440,     Time: 2023-03-27 13:54:46.8359031 -0600 MDT m=+868.788350501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 441,     Time: 2023-03-27 13:54:48.3614407 -0600 MDT m=+870.313883101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 442,     Time: 2023-03-27 13:54:49.8922542 -0600 MDT m=+871.844691501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 443,     Time: 2023-03-27 13:54:51.4205636 -0600 MDT m=+873.372995901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 444,     Time: 2023-03-27 13:54:52.9450803 -0600 MDT m=+874.897507601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 445,     Time: 2023-03-27 13:54:54.4703989 -0600 MDT m=+876.422821101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 446,     Time: 2023-03-27 13:54:55.9968462 -0600 MDT m=+877.949263401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 447,     Time: 2023-03-27 13:54:57.5240038 -0600 MDT m=+879.476416001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 448,     Time: 2023-03-27 13:54:59.0509962 -0600 MDT m=+881.003403301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 449,     Time: 2023-03-27 13:55:00.5770157 -0600 MDT m=+882.529417801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 450,     Time: 2023-03-27 13:55:02.1077366 -0600 MDT m=+884.060133601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 451,     Time: 2023-03-27 13:55:03.6331654 -0600 MDT m=+885.585557401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 452,     Time: 2023-03-27 13:55:05.18806 -0600 MDT m=+887.140446901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 453,     Time: 2023-03-27 13:55:06.7129881 -0600 MDT m=+888.665369901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 454,     Time: 2023-03-27 13:55:08.2391805 -0600 MDT m=+890.191557301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 455,     Time: 2023-03-27 13:55:09.7641155 -0600 MDT m=+891.716487301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 456,     Time: 2023-03-27 13:55:11.2905045 -0600 MDT m=+893.242871201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 457,     Time: 2023-03-27 13:55:12.8226103 -0600 MDT m=+894.774972001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 458,     Time: 2023-03-27 13:55:14.3483646 -0600 MDT m=+896.300721201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 459,     Time: 2023-03-27 13:55:15.874305 -0600 MDT m=+897.826656601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 460,     Time: 2023-03-27 13:55:17.4015182 -0600 MDT m=+899.353864801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 461,     Time: 2023-03-27 13:55:18.928693 -0600 MDT m=+900.881034501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 462,     Time: 2023-03-27 13:55:20.4599687 -0600 MDT m=+902.412305201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 463,     Time: 2023-03-27 13:55:21.9894327 -0600 MDT m=+903.941764101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 464,     Time: 2023-03-27 13:55:23.5206493 -0600 MDT m=+905.472975701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 465,     Time: 2023-03-27 13:55:25.0467577 -0600 MDT m=+906.999079001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 466,     Time: 2023-03-27 13:55:26.5726452 -0600 MDT m=+908.524961501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 467,     Time: 2023-03-27 13:55:28.1048089 -0600 MDT m=+910.057120101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 468,     Time: 2023-03-27 13:55:29.6298502 -0600 MDT m=+911.582156401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 469,     Time: 2023-03-27 13:55:31.1690215 -0600 MDT m=+913.121322601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 470,     Time: 2023-03-27 13:55:32.6953946 -0600 MDT m=+914.647690701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 471,     Time: 2023-03-27 13:55:34.2225075 -0600 MDT m=+916.174798701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 472,     Time: 2023-03-27 13:55:35.7468988 -0600 MDT m=+917.699185101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 473,     Time: 2023-03-27 13:55:37.2744763 -0600 MDT m=+919.226757701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 474,     Time: 2023-03-27 13:55:38.7999709 -0600 MDT m=+920.752247501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 475,     Time: 2023-03-27 13:55:40.3244432 -0600 MDT m=+922.276714901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 476,     Time: 2023-03-27 13:55:41.8630705 -0600 MDT m=+923.815337301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 477,     Time: 2023-03-27 13:55:43.3921106 -0600 MDT m=+925.344372501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 478,     Time: 2023-03-27 13:55:44.9257569 -0600 MDT m=+926.878013901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 479,     Time: 2023-03-27 13:55:46.4499693 -0600 MDT m=+928.402221401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 480,     Time: 2023-03-27 13:55:47.9749058 -0600 MDT m=+929.927153001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 481,     Time: 2023-03-27 13:55:49.5006512 -0600 MDT m=+931.452893501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 482,     Time: 2023-03-27 13:55:51.0258471 -0600 MDT m=+932.978084501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 483,     Time: 2023-03-27 13:55:52.5495588 -0600 MDT m=+934.501791401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 484,     Time: 2023-03-27 13:55:54.0795305 -0600 MDT m=+936.031758201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 485,     Time: 2023-03-27 13:55:55.6060328 -0600 MDT m=+937.558255601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 486,     Time: 2023-03-27 13:55:57.1324458 -0600 MDT m=+939.084663701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 487,     Time: 2023-03-27 13:55:58.6647662 -0600 MDT m=+940.616979201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 488,     Time: 2023-03-27 13:56:00.1956295 -0600 MDT m=+942.147837601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 489,     Time: 2023-03-27 13:56:01.7196598 -0600 MDT m=+943.671863001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 490,     Time: 2023-03-27 13:56:03.2503029 -0600 MDT m=+945.202501201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 491,     Time: 2023-03-27 13:56:04.7766001 -0600 MDT m=+946.728793501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 492,     Time: 2023-03-27 13:56:06.3040668 -0600 MDT m=+948.256255401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 493,     Time: 2023-03-27 13:56:07.8362197 -0600 MDT m=+949.788403301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 494,     Time: 2023-03-27 13:56:09.3615828 -0600 MDT m=+951.313761601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 495,     Time: 2023-03-27 13:56:10.8870939 -0600 MDT m=+952.839267801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 496,     Time: 2023-03-27 13:56:12.4135421 -0600 MDT m=+954.365711101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 497,     Time: 2023-03-27 13:56:13.9624003 -0600 MDT m=+955.914564301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 498,     Time: 2023-03-27 13:56:15.4887115 -0600 MDT m=+957.440870701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 499,     Time: 2023-03-27 13:56:17.0127719 -0600 MDT m=+958.964926201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 500,     Time: 2023-03-27 13:56:18.546011 -0600 MDT m=+960.498160401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 501,     Time: 2023-03-27 13:56:20.0721418 -0600 MDT m=+962.024286301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 502,     Time: 2023-03-27 13:56:21.5971952 -0600 MDT m=+963.549334801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 503,     Time: 2023-03-27 13:56:23.1287211 -0600 MDT m=+965.080855801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 504,     Time: 2023-03-27 13:56:24.6547772 -0600 MDT m=+966.606907001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 505,     Time: 2023-03-27 13:56:26.180555 -0600 MDT m=+968.132679901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 506,     Time: 2023-03-27 13:56:27.7143253 -0600 MDT m=+969.666445301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 507,     Time: 2023-03-27 13:56:29.2411386 -0600 MDT m=+971.193253801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 508,     Time: 2023-03-27 13:56:30.7648659 -0600 MDT m=+972.716976201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 509,     Time: 2023-03-27 13:56:32.2911618 -0600 MDT m=+974.243267201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 510,     Time: 2023-03-27 13:56:33.8157104 -0600 MDT m=+975.767810901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 511,     Time: 2023-03-27 13:56:35.3501124 -0600 MDT m=+977.302208001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 512,     Time: 2023-03-27 13:56:36.873935 -0600 MDT m=+978.826025701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 513,     Time: 2023-03-27 13:56:38.3995003 -0600 MDT m=+980.351586101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 514,     Time: 2023-03-27 13:56:39.9263149 -0600 MDT m=+981.878395901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 515,     Time: 2023-03-27 13:56:41.4518405 -0600 MDT m=+983.403916601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 516,     Time: 2023-03-27 13:56:42.9839277 -0600 MDT m=+984.935998901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 517,     Time: 2023-03-27 13:56:44.5098537 -0600 MDT m=+986.461920001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 518,     Time: 2023-03-27 13:56:46.0347743 -0600 MDT m=+987.986835701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 519,     Time: 2023-03-27 13:56:47.5614672 -0600 MDT m=+989.513523701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 520,     Time: 2023-03-27 13:56:49.0924886 -0600 MDT m=+991.044540201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 521,     Time: 2023-03-27 13:56:50.6210965 -0600 MDT m=+992.573143201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 522,     Time: 2023-03-27 13:56:52.1470518 -0600 MDT m=+994.099093701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 523,     Time: 2023-03-27 13:56:53.6719028 -0600 MDT m=+995.623939801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 524,     Time: 2023-03-27 13:56:55.2319461 -0600 MDT m=+997.183978101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 525,     Time: 2023-03-27 13:56:56.756317 -0600 MDT m=+998.708344101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 526,     Time: 2023-03-27 13:56:58.2882301 -0600 MDT m=+1000.240252301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 527,     Time: 2023-03-27 13:56:59.8143457 -0600 MDT m=+1001.766363001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 528,     Time: 2023-03-27 13:57:01.3415972 -0600 MDT m=+1003.293609601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 529,     Time: 2023-03-27 13:57:02.866863 -0600 MDT m=+1004.818870501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 530,     Time: 2023-03-27 13:57:04.3927141 -0600 MDT m=+1006.344716801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 531,     Time: 2023-03-27 13:57:05.9175045 -0600 MDT m=+1007.869502301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 532,     Time: 2023-03-27 13:57:07.4508998 -0600 MDT m=+1009.402892701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 533,     Time: 2023-03-27 13:57:08.9752863 -0600 MDT m=+1010.927274301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 534,     Time: 2023-03-27 13:57:10.5025103 -0600 MDT m=+1012.454493401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 535,     Time: 2023-03-27 13:57:12.0296201 -0600 MDT m=+1013.981598301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 536,     Time: 2023-03-27 13:57:13.5563654 -0600 MDT m=+1015.508338701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 537,     Time: 2023-03-27 13:57:15.0824389 -0600 MDT m=+1017.034407401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 538,     Time: 2023-03-27 13:57:16.6152774 -0600 MDT m=+1018.567241001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 539,     Time: 2023-03-27 13:57:18.1442112 -0600 MDT m=+1020.096169901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 540,     Time: 2023-03-27 13:57:19.6722985 -0600 MDT m=+1021.624252301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 541,     Time: 2023-03-27 13:57:21.2144529 -0600 MDT m=+1023.166401701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 542,     Time: 2023-03-27 13:57:22.7408117 -0600 MDT m=+1024.692755701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 543,     Time: 2023-03-27 13:57:24.2654925 -0600 MDT m=+1026.217431601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 544,     Time: 2023-03-27 13:57:25.7889453 -0600 MDT m=+1027.740879501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 545,     Time: 2023-03-27 13:57:27.3192433 -0600 MDT m=+1029.271172601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 546,     Time: 2023-03-27 13:57:28.8472912 -0600 MDT m=+1030.799215601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 547,     Time: 2023-03-27 13:57:30.3720559 -0600 MDT m=+1032.323975401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 548,     Time: 2023-03-27 13:57:31.9024786 -0600 MDT m=+1033.854393201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 549,     Time: 2023-03-27 13:57:33.4256233 -0600 MDT m=+1035.377533101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 550,     Time: 2023-03-27 13:57:34.9503324 -0600 MDT m=+1036.902237301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 551,     Time: 2023-03-27 13:57:36.4766944 -0600 MDT m=+1038.428594401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 552,     Time: 2023-03-27 13:57:38.007396 -0600 MDT m=+1039.959291101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 553,     Time: 2023-03-27 13:57:39.5313756 -0600 MDT m=+1041.483265801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 554,     Time: 2023-03-27 13:57:41.0615114 -0600 MDT m=+1043.013396701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 555,     Time: 2023-03-27 13:57:42.5869445 -0600 MDT m=+1044.538824901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 556,     Time: 2023-03-27 13:57:44.1141912 -0600 MDT m=+1046.066066801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 557,     Time: 2023-03-27 13:57:45.6404687 -0600 MDT m=+1047.592339401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 558,     Time: 2023-03-27 13:57:47.2118247 -0600 MDT m=+1049.163690301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 559,     Time: 2023-03-27 13:57:48.7362695 -0600 MDT m=+1050.688130301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 560,     Time: 2023-03-27 13:57:50.2681703 -0600 MDT m=+1052.220026201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 561,     Time: 2023-03-27 13:57:51.7934015 -0600 MDT m=+1053.745252501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 562,     Time: 2023-03-27 13:57:53.3190021 -0600 MDT m=+1055.270848201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 563,     Time: 2023-03-27 13:57:54.8448773 -0600 MDT m=+1056.796718501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 564,     Time: 2023-03-27 13:57:56.3786003 -0600 MDT m=+1058.330436601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 565,     Time: 2023-03-27 13:57:57.9030754 -0600 MDT m=+1059.854906801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 566,     Time: 2023-03-27 13:57:59.4274995 -0600 MDT m=+1061.379326101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 567,     Time: 2023-03-27 13:58:00.9536934 -0600 MDT m=+1062.905515101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 568,     Time: 2023-03-27 13:58:02.4849297 -0600 MDT m=+1064.436746501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 569,     Time: 2023-03-27 13:58:04.0091232 -0600 MDT m=+1065.960935101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 570,     Time: 2023-03-27 13:58:05.5331974 -0600 MDT m=+1067.485004401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 571,     Time: 2023-03-27 13:58:07.0574155 -0600 MDT m=+1069.009217601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 572,     Time: 2023-03-27 13:58:08.5890507 -0600 MDT m=+1070.540847901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 573,     Time: 2023-03-27 13:58:10.1155469 -0600 MDT m=+1072.067339301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 574,     Time: 2023-03-27 13:58:11.6494486 -0600 MDT m=+1073.601236001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 575,     Time: 2023-03-27 13:58:13.1826443 -0600 MDT m=+1075.134426801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 576,     Time: 2023-03-27 13:58:14.7132644 -0600 MDT m=+1076.665042001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 577,     Time: 2023-03-27 13:58:16.2415543 -0600 MDT m=+1078.193327101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 578,     Time: 2023-03-27 13:58:17.76727 -0600 MDT m=+1079.719037901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 579,     Time: 2023-03-27 13:58:19.297785 -0600 MDT m=+1081.249548001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 580,     Time: 2023-03-27 13:58:20.8247847 -0600 MDT m=+1082.776542801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 581,     Time: 2023-03-27 13:58:22.3503631 -0600 MDT m=+1084.302116301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 582,     Time: 2023-03-27 13:58:23.8823982 -0600 MDT m=+1085.834146501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 583,     Time: 2023-03-27 13:58:25.407779 -0600 MDT m=+1087.359522401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 584,     Time: 2023-03-27 13:58:26.9353613 -0600 MDT m=+1088.887099801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 585,     Time: 2023-03-27 13:58:28.4602875 -0600 MDT m=+1090.412021201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 586,     Time: 2023-03-27 13:58:29.9865947 -0600 MDT m=+1091.938323501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 587,     Time: 2023-03-27 13:58:31.5181421 -0600 MDT m=+1093.469866001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 588,     Time: 2023-03-27 13:58:33.0423563 -0600 MDT m=+1094.994075301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 589,     Time: 2023-03-27 13:58:34.5668743 -0600 MDT m=+1096.518588401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 590,     Time: 2023-03-27 13:58:36.0920864 -0600 MDT m=+1098.043795601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 591,     Time: 2023-03-27 13:58:37.61762 -0600 MDT m=+1099.569324301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 592,     Time: 2023-03-27 13:58:39.150607 -0600 MDT m=+1101.102306401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 593,     Time: 2023-03-27 13:58:40.6764827 -0600 MDT m=+1102.628177301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 594,     Time: 2023-03-27 13:58:42.2039876 -0600 MDT m=+1104.155677301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 595,     Time: 2023-03-27 13:58:43.7289771 -0600 MDT m=+1105.680661901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 596,     Time: 2023-03-27 13:58:45.2546961 -0600 MDT m=+1107.206376001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 597,     Time: 2023-03-27 13:58:46.7786338 -0600 MDT m=+1108.730308801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 598,     Time: 2023-03-27 13:58:48.317961 -0600 MDT m=+1110.269631101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 599,     Time: 2023-03-27 13:58:49.846297 -0600 MDT m=+1111.797962201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 600,     Time: 2023-03-27 13:58:51.3839239 -0600 MDT m=+1113.335584201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 601,     Time: 2023-03-27 13:58:52.9157165 -0600 MDT m=+1114.867371901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 602,     Time: 2023-03-27 13:58:54.4405895 -0600 MDT m=+1116.392240001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 603,     Time: 2023-03-27 13:58:55.9709713 -0600 MDT m=+1117.922616901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 604,     Time: 2023-03-27 13:58:57.4979442 -0600 MDT m=+1119.449584901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 605,     Time: 2023-03-27 13:58:59.0238111 -0600 MDT m=+1120.975446901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 606,     Time: 2023-03-27 13:59:00.5561765 -0600 MDT m=+1122.507807401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 607,     Time: 2023-03-27 13:59:02.0808181 -0600 MDT m=+1124.032444201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 608,     Time: 2023-03-27 13:59:03.6132434 -0600 MDT m=+1125.564864601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 609,     Time: 2023-03-27 13:59:05.1425917 -0600 MDT m=+1127.094208001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 610,     Time: 2023-03-27 13:59:06.667186 -0600 MDT m=+1128.618797401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 611,     Time: 2023-03-27 13:59:08.1926018 -0600 MDT m=+1130.144208301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 612,     Time: 2023-03-27 13:59:09.7189866 -0600 MDT m=+1131.670588201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 613,     Time: 2023-03-27 13:59:11.2516572 -0600 MDT m=+1133.203253901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 614,     Time: 2023-03-27 13:59:12.7785951 -0600 MDT m=+1134.730186901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 615,     Time: 2023-03-27 13:59:14.3046719 -0600 MDT m=+1136.256258801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 616,     Time: 2023-03-27 13:59:15.8316094 -0600 MDT m=+1137.783191501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 617,     Time: 2023-03-27 13:59:17.3607747 -0600 MDT m=+1139.312351901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 618,     Time: 2023-03-27 13:59:18.8883743 -0600 MDT m=+1140.839946601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 619,     Time: 2023-03-27 13:59:20.4188772 -0600 MDT m=+1142.370444601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 620,     Time: 2023-03-27 13:59:21.9488482 -0600 MDT m=+1143.900410701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 621,     Time: 2023-03-27 13:59:23.476153 -0600 MDT m=+1145.427710601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 622,     Time: 2023-03-27 13:59:25.0008297 -0600 MDT m=+1146.952382401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 623,     Time: 2023-03-27 13:59:26.5260403 -0600 MDT m=+1148.477588101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 624,     Time: 2023-03-27 13:59:28.0496886 -0600 MDT m=+1150.001231601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 625,     Time: 2023-03-27 13:59:29.5817228 -0600 MDT m=+1151.533260901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 626,     Time: 2023-03-27 13:59:31.1087755 -0600 MDT m=+1153.060308701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 627,     Time: 2023-03-27 13:59:32.6372257 -0600 MDT m=+1154.588754001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 628,     Time: 2023-03-27 13:59:34.1657211 -0600 MDT m=+1156.117244501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 629,     Time: 2023-03-27 13:59:35.6907443 -0600 MDT m=+1157.642262801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 630,     Time: 2023-03-27 13:59:37.2225416 -0600 MDT m=+1159.174055201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 631,     Time: 2023-03-27 13:59:38.749603 -0600 MDT m=+1160.701111701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 632,     Time: 2023-03-27 13:59:40.2755479 -0600 MDT m=+1162.227051701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 633,     Time: 2023-03-27 13:59:41.8004607 -0600 MDT m=+1163.751959701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 634,     Time: 2023-03-27 13:59:43.3242146 -0600 MDT m=+1165.275708701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 635,     Time: 2023-03-27 13:59:44.8563564 -0600 MDT m=+1166.807845601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 636,     Time: 2023-03-27 13:59:46.3823586 -0600 MDT m=+1168.333842901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 637,     Time: 2023-03-27 13:59:47.9094564 -0600 MDT m=+1169.860935801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 638,     Time: 2023-03-27 13:59:49.43417 -0600 MDT m=+1171.385644501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 639,     Time: 2023-03-27 13:59:50.9593179 -0600 MDT m=+1172.910787601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 640,     Time: 2023-03-27 13:59:52.5177881 -0600 MDT m=+1174.469252801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 641,     Time: 2023-03-27 13:59:54.0429136 -0600 MDT m=+1175.994373401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 642,     Time: 2023-03-27 13:59:55.5743655 -0600 MDT m=+1177.525820401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 643,     Time: 2023-03-27 13:59:57.0988514 -0600 MDT m=+1179.050301401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 644,     Time: 2023-03-27 13:59:58.632002 -0600 MDT m=+1180.583447101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 645,     Time: 2023-03-27 14:00:00.1575142 -0600 MDT m=+1182.108954401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 646,     Time: 2023-03-27 14:00:01.6841419 -0600 MDT m=+1183.635577201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 647,     Time: 2023-03-27 14:00:03.2099499 -0600 MDT m=+1185.161380401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 648,     Time: 2023-03-27 14:00:04.7362281 -0600 MDT m=+1186.687653701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 649,     Time: 2023-03-27 14:00:06.2683996 -0600 MDT m=+1188.219820301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 650,     Time: 2023-03-27 14:00:07.7932084 -0600 MDT m=+1189.744624201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 651,     Time: 2023-03-27 14:00:09.3188272 -0600 MDT m=+1191.270238101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 652,     Time: 2023-03-27 14:00:10.845183 -0600 MDT m=+1192.796589001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 653,     Time: 2023-03-27 14:00:12.3720454 -0600 MDT m=+1194.323446501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 654,     Time: 2023-03-27 14:00:13.9015157 -0600 MDT m=+1195.852911901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 655,     Time: 2023-03-27 14:00:15.4292736 -0600 MDT m=+1197.380664901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 656,     Time: 2023-03-27 14:00:16.9589673 -0600 MDT m=+1198.910353801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 657,     Time: 2023-03-27 14:00:18.4831919 -0600 MDT m=+1200.434573501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 658,     Time: 2023-03-27 14:00:20.0083266 -0600 MDT m=+1201.959703301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 659,     Time: 2023-03-27 14:00:21.534202 -0600 MDT m=+1203.485573801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 660,     Time: 2023-03-27 14:00:23.0573619 -0600 MDT m=+1205.008728801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 661,     Time: 2023-03-27 14:00:24.6009567 -0600 MDT m=+1206.552318701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 662,     Time: 2023-03-27 14:00:26.1268107 -0600 MDT m=+1208.078167801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 663,     Time: 2023-03-27 14:00:27.6575745 -0600 MDT m=+1209.608926701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 664,     Time: 2023-03-27 14:00:29.1845339 -0600 MDT m=+1211.135881201,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 665,     Time: 2023-03-27 14:00:30.7170045 -0600 MDT m=+1212.668346901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 666,     Time: 2023-03-27 14:00:32.2452304 -0600 MDT m=+1214.196567901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 667,     Time: 2023-03-27 14:00:33.7791982 -0600 MDT m=+1215.730530901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 668,     Time: 2023-03-27 14:00:35.3063531 -0600 MDT m=+1217.257681101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 669,     Time: 2023-03-27 14:00:36.8363365 -0600 MDT m=+1218.787659801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 670,     Time: 2023-03-27 14:00:38.3622815 -0600 MDT m=+1220.313600001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 671,     Time: 2023-03-27 14:00:39.8946769 -0600 MDT m=+1221.845990701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 672,     Time: 2023-03-27 14:00:41.4190995 -0600 MDT m=+1223.370408601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 673,     Time: 2023-03-27 14:00:42.9419884 -0600 MDT m=+1224.893292701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 674,     Time: 2023-03-27 14:00:44.4710273 -0600 MDT m=+1226.422326901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 675,     Time: 2023-03-27 14:00:45.9957901 -0600 MDT m=+1227.947085001,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 676,     Time: 2023-03-27 14:00:47.5286052 -0600 MDT m=+1229.479895301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 677,     Time: 2023-03-27 14:00:49.0549734 -0600 MDT m=+1231.006258801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 678,     Time: 2023-03-27 14:00:50.585087 -0600 MDT m=+1232.536367601,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 679,     Time: 2023-03-27 14:00:52.1091082 -0600 MDT m=+1234.060384101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 680,     Time: 2023-03-27 14:00:53.6353269 -0600 MDT m=+1235.586598101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 681,     Time: 2023-03-27 14:00:55.1662967 -0600 MDT m=+1237.117563101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 682,     Time: 2023-03-27 14:00:56.6961491 -0600 MDT m=+1238.647410801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 683,     Time: 2023-03-27 14:00:58.2283635 -0600 MDT m=+1240.179620501,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 684,     Time: 2023-03-27 14:00:59.7598676 -0600 MDT m=+1241.711119801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 685,     Time: 2023-03-27 14:01:01.2896954 -0600 MDT m=+1243.240942901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 686,     Time: 2023-03-27 14:01:02.8134 -0600 MDT m=+1244.764642701,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 687,     Time: 2023-03-27 14:01:04.3400193 -0600 MDT m=+1246.291257301,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 688,     Time: 2023-03-27 14:01:05.8694768 -0600 MDT m=+1247.820710101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 689,     Time: 2023-03-27 14:01:07.3942764 -0600 MDT m=+1249.345504901,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 690,     Time: 2023-03-27 14:01:08.9261706 -0600 MDT m=+1250.877394401,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 691,     Time: 2023-03-27 14:01:10.4522507 -0600 MDT m=+1252.403469801,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
+Count: 692,     Time: 2023-03-27 14:01:11.9779598 -0600 MDT m=+1253.929174101,     Response: {},     Error: error in switcher response:  Full Connections.
+                                             
