@@ -18,7 +18,7 @@ func main() {
 		port     string
 		logLevel string
 	)
-	pflag.StringVarP(&port, "port", "p", "8040", "port for microservice to av-api communication")
+	pflag.StringVarP(&port, "port", "p", "8041", "port for microservice to av-api communication")
 	pflag.StringVarP(&logLevel, "log", "l", "Debug", "Initial log level") //Change debug to Info
 	pflag.Parse()
 
