@@ -33,7 +33,7 @@ func SetInput(address string, input string, output string) (Input, error) {
 		out = "x2"
 		parseResp = "x2"
 	case strings.Contains(output, "mirror"): //for 6x2 mirrored
-		out = "x1,x2"
+		out = "x1" //"x1,x2" - can't send x1,x2 when the switcher is not in matrix mode
 		parseResp = "x1"
 	default:
 		err := fmt.Errorf("invalid device. expected to contain A, a, 1, 0, B, b, or mirror: %s", output)

@@ -12,7 +12,7 @@ func main() {
 	count := 0
 	commandTime := 1500 //time in ms to send a command
 	for {
-		input, err := actions.GetInput("169.254.9.244", "B")
+		input, err := actions.GetInput("169.254.96.49", "B")
 		time.Sleep(time.Duration(time.Duration(commandTime) * time.Millisecond))
 
 		count += 1
