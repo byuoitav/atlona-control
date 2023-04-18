@@ -45,7 +45,6 @@ type Mute struct {
 // 62 - zoneOut1, zoneOut2 - VOUTMutex y x(output#)=(1, 2, 3, 4)  y=(on, off)
 // 52 - Out1 - VOUTMute x - x=(on, off)
 func SetMute(address string, output string, status bool, device string) (Mute, error) {
-	fmt.Printf("Incoming vars: address: %s, output: %s, status: %t, device: %s\r\n", address, output, status, device)
 	var state Mute
 	port := "23"
 	cmd := ""
@@ -84,12 +83,10 @@ func SetMute(address string, output string, status bool, device string) (Mute, e
 	if err != nil {
 		return state, err
 	}
-	fmt.Printf("The response is: %s", resp)
 	respMute, err := parseMuteResponse(resp, output, parseCmd)
 	if err != nil {
 		return state, err
 	}
-	fmt.Println(respMute)
 	state.Muted = respMute
 
 	return state, nil
@@ -99,7 +96,6 @@ func SetMute(address string, output string, status bool, device string) (Mute, e
 // 62 - zoneOut1, zoneOut2 - VOUTMutex sta - x(output#)=(1, 2, 3, 4)
 // 52 - Out1 - VOUTMute sta
 func GetMute(address string, output string, device string) (Mute, error) {
-	fmt.Printf("Incoming vars: address: %s, output: %s, device: %s\r\n", address, output, device)
 	var state Mute
 	port := "23"
 	cmd := ""
@@ -132,12 +128,10 @@ func GetMute(address string, output string, device string) (Mute, error) {
 	if err != nil {
 		return state, err
 	}
-	fmt.Printf("The response is: %s", resp)
 	respMute, err := parseMuteResponse(resp, output, parseCmd)
 	if err != nil {
 		return state, err
 	}
-	fmt.Println(respMute)
 	state.Muted = respMute
 	return state, nil
 }
@@ -146,7 +140,6 @@ func GetMute(address string, output string, device string) (Mute, error) {
 // 62 - zoneOut1, zoneOut2 - VOUTx y - x(output#)=(1, 2, 3, 4; y= -90-10, sta=status)
 // 52 - Out1 - VOUT1 y (y= -80-15, sta=status)
 func SetVolume(address string, output string, volume string, device string) (Volume, error) {
-	fmt.Printf("Incoming vars: address: %s, output: %s, volume: %s, device: %s\r\n", address, output, volume, device)
 	var level Volume
 
 	vol := convertVolume(volume, device)
@@ -181,7 +174,6 @@ func SetVolume(address string, output string, volume string, device string) (Vol
 	if err != nil {
 		return level, err
 	}
-	fmt.Printf("The response is: %s", resp)
 
 	respLevel, err := parseVolumeResponse(resp, output, parseCmd)
 	if err != nil {
@@ -232,7 +224,6 @@ func GetVolume(address string, output string, device string) (Volume, error) {
 	if err != nil {
 		return level, err
 	}
-	fmt.Printf("The response is: %s", resp)
 
 	respLevel, err := parseVolumeResponse(resp, output, parseCmd)
 	if err != nil {
@@ -262,7 +253,6 @@ func parseVolumeResponse(resp []byte, output string, parseCmd string) (input int
 		if responseContainsOut {
 			v := strings.Split(string(value), " ")
 			input, err = strconv.Atoi(v[1])
-			fmt.Println("input: ", input)
 			if err != nil {
 				return input, err
 			}
@@ -279,7 +269,7 @@ func parseMuteResponse(resp []byte, output string, parseCmd string) (mute bool, 
 	responses := strings.Split(string(resp), "\r\n")
 	responseContainsCMD := false
 	for _, value := range responses {
-		fmt.Println("Slice: ", value)
+		//fmt.Println("Slice: ", value)
 		if len(value) > 5 {
 			responseContainsCMD = strings.Contains(string(value), parseCmd)
 		} else {
@@ -288,7 +278,7 @@ func parseMuteResponse(resp []byte, output string, parseCmd string) (mute bool, 
 		if responseContainsCMD {
 			v := strings.Split(string(value), " ")
 			state := v[1]
-			fmt.Println("state: ", state)
+			//fmt.Println("state: ", state)
 			if err != nil {
 				return mute, err
 			}
@@ -301,7 +291,6 @@ func parseMuteResponse(resp []byte, output string, parseCmd string) (mute bool, 
 				err = fmt.Errorf("response not in expected range (\"on\" or \"off\"): %s", string(resp))
 				return mute, err
 			}
-			fmt.Println("mute return: ", mute)
 			return mute, nil
 		} else {
 			err = fmt.Errorf("invalid mute response: %s", resp)
@@ -365,7 +354,6 @@ func convertReceiveVolume(volume string, device string) string {
 	devHi := 100.0
 	devLo := 0.0
 	if err != nil {
-		fmt.Println(err)
 		return "0"
 	}
 

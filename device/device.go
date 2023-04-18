@@ -15,7 +15,7 @@ type DeviceManager struct {
 func (d *DeviceManager) RunHTTPServer(router *gin.Engine, port string) error {
 	d.Log.Info("registering http endpoints")
 
-	//AT-UHD-SW-52ED - should work with all Atlona 1 output video switchers (do not use volume if the switcher does not have volume control)
+	//AT-UHD-SW-52ED
 	// action endpoints
 	at52 := router.Group("/api/v1/AT-UHD-SW-52ED")
 	at52.GET("/:address/output/:output/input/:input", d.setInput)  //change input
@@ -27,7 +27,7 @@ func (d *DeviceManager) RunHTTPServer(router *gin.Engine, port string) error {
 	at52.GET("/:address/block/:output/volume", d.getVolume) //get volume
 	at52.GET("/:address/block/:output/muted", d.getMute)    //get mute state
 
-	//AT-OME-PS62 - should work with all Atlona multi-output video switchers
+	//AT-OME-PS62
 	// action endpoints
 	at62 := router.Group("/api/v1/AT-OME-PS62")
 	at62.GET("/:address/output/:output/input/:input", d.setInput)  //change input
@@ -39,7 +39,7 @@ func (d *DeviceManager) RunHTTPServer(router *gin.Engine, port string) error {
 	at62.GET("/:address/block/:output/volume", d.getVolume) //get volume
 	at62.GET("/:address/block/:output/muted", d.getMute)    //get mute state
 
-	//AT-GAIN-60 - should work with all Atlona multi-output video switchers
+	//AT-GAIN-60
 	// action endpoints
 	atGain60 := router.Group("/api/v1/AT-GAIN-60")
 	atGain60.GET("/:address/block/:output/volume/:level", d.setVolume) //set volume
