@@ -1,6 +1,7 @@
 package device
 
 import (
+	"fmt"
 	"net/http"
 	"strconv"
 	"strings"
@@ -19,11 +20,12 @@ const communicationFrequency int = 1500 //time in ms for polling
 
 func init() {
 	go func() {
+		fmt.Println("New Goroutine Instance")
 		for {
+			time.Sleep(time.Duration(100) * time.Millisecond)
 			if takeANumber > 0 {
 				time.Sleep(time.Duration(communicationFrequency) * time.Millisecond)
 				takeANumber -= 1
-
 			}
 		}
 	}()

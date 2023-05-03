@@ -112,6 +112,7 @@ else ifneq ($(shell echo $(TAG) | grep -E $(PRD_TAG_REGEX)),)
 	@echo Pushing container $(DOCKER_URL)/$(OWNER)/$(REPO)/$(NAME)-arm:$(TAG)
 	@docker push $(DOCKER_URL)/$(OWNER)/$(REPO)/$(NAME)-arm:$(TAG)
 
+
 endif
 
 clean:
